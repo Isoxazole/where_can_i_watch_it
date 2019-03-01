@@ -1,7 +1,9 @@
+
+
 html, body {
   margin: 0;
   padding: 0;
-  background: White;
+  background: url("folk-pattern-black.png");
   color: DarkSlateGrey;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 10pt;
@@ -12,24 +14,24 @@ div#main {
 }
 a {
   background: transparent;
-  color: maroon;
+  color: white;
   text-decoration: underline;
   font-weight: bold;
 }
 h1 {
-  color: maroon;
+  color: white;
+  background-image: linear-gradient(blue, black);
   font-size: 150%;
   font-style: italic;
   display: block;
   width: 100%;
-  border-bottom: 1px solid DarkSlateGrey;
+  border-bottom: 1px solid black;
 }
 h1.title {
   margin: 0 0 1em;
   padding: 10px;
   background-color: blue;
   color: white;
-  border-bottom: 4px solid blue;
   font-size: 2em;
   font-style: normal;
   text-align: center;
