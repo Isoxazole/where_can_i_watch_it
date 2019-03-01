@@ -24,6 +24,7 @@ h1 {
   font-size: 150%;
   font-style: italic;
   display: block;
+  text-align: center;
   width: 100%;
   border-bottom: 1px solid black;
 }
