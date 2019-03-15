@@ -358,3 +358,1171 @@ Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-03-01 22:46:08 +0000
 Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-10 20:26:28 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (984.2ms)
+Completed 200 OK in 1176ms (Views: 1142.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-10 20:26:30 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-10 20:26:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 13:20:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (366.1ms)
+Completed 200 OK in 492ms (Views: 446.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-11 13:20:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:13:17 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (873.6ms)
+Completed 200 OK in 1106ms (Views: 1043.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 13:13:19 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 13:13:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:20:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (387.5ms)
+Completed 200 OK in 499ms (Views: 464.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 13:20:36 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 13:20:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:23:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (944.2ms)
+Completed 200 OK in 1249ms (Views: 1154.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 13:23:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:23:17 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (38.9ms)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 13:23:17 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 13:23:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:25:27 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (520.2ms)
+Completed 500 Internal Server Error in 593ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `hilite' for #<#<Class:0x0000559f0d570560>:0x0000559f0d546a30>):
+    17: %table#movies
+    18:   %thead
+    19:     %tr
+    20:       %th{:class => hilite("title")}= link_to 'Movie Title', movies_path(:sort => 'title'), :id => "title_header"
+    21:       -# Highlight the header     #Create the link      #set sort to 'title'
+    22:       %th Rating
+    23:       %th{:class => hilite("release_date")}= link_to 'Release Date', movies_path(:sort => 'release_date'), :id => "release_date_header"
+  app/views/movies/index.html.haml:20:in `_app_views_movies_index_html_haml__967732848001872900_47070802006360'
+
+
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.9ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.5ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (95.6ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.3ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:29:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.8ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (938.3ms)
+Completed 200 OK in 1289ms (Views: 1219.3ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 13:29:10 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 13:29:11 -0700
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-13 13:29:31 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (49.7ms)
+Completed 200 OK in 104ms (Views: 99.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/movies?sort=title" for 127.0.0.1 at 2019-03-13 13:29:35 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (42.0ms)
+Completed 200 OK in 117ms (Views: 97.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/movies?sort=title" for 127.0.0.1 at 2019-03-13 13:29:37 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (44.3ms)
+Completed 200 OK in 130ms (Views: 122.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-13 13:29:39 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 13:57:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (1.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (564.7ms)
+Completed 500 Internal Server Error in 687ms (ActiveRecord: 4.8ms)
+
+ActionView::Template::Error (undefined method `provider' for #<Movie:0x00007fb72dbc0fe8>):
+    30:         %td= movie.title
+    31:         %td= movie.rating
+    32:         %td= movie.release_date
+    33:         %td= movie.provider
+    34:         %td= link_to "More about #{movie.title}", movie_path(movie)
+    35: 
+    36: = link_to 'Login / New User', new_movie_path
+  app/views/movies/index.html.haml:33:in `block in _app_views_movies_index_html_haml__1680656436757439500_47252340267360'
+  app/views/movies/index.html.haml:28:in `_app_views_movies_index_html_haml__1680656436757439500_47252340267360'
+
+
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.3ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-13 21:09:41.712869"], ["updated_at", "2019-03-13 21:09:41.712869"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-13 21:09:41.718781"], ["updated_at", "2019-03-13 21:09:41.718781"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-13 21:09:41.725184"], ["updated_at", "2019-03-13 21:09:41.725184"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-13 21:09:41.729854"], ["updated_at", "2019-03-13 21:09:41.729854"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-13 21:09:41.735188"], ["updated_at", "2019-03-13 21:09:41.735188"]]
+  [1m[35m (4.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-13 21:10:51.510093"], ["updated_at", "2019-03-13 21:10:51.510093"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-13 21:10:51.516505"], ["updated_at", "2019-03-13 21:10:51.516505"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-13 21:10:51.522755"], ["updated_at", "2019-03-13 21:10:51.522755"]]
+  [1m[35m (4.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-13 21:10:51.531031"], ["updated_at", "2019-03-13 21:10:51.531031"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-13 21:10:51.535908"], ["updated_at", "2019-03-13 21:10:51.535908"]]
+  [1m[35m (3.2ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 14:11:40 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (487.2ms)
+Completed 200 OK in 632ms (Views: 579.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 14:11:41 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.889510"], ["updated_at", "2019-03-13 21:13:27.889510"]]
+  [1m[35m (3.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.900585"], ["updated_at", "2019-03-13 21:13:27.900585"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.906074"], ["updated_at", "2019-03-13 21:13:27.906074"]]
+  [1m[35m (4.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.913750"], ["updated_at", "2019-03-13 21:13:27.913750"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.922856"], ["updated_at", "2019-03-13 21:13:27.922856"]]
+  [1m[35m (4.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.931380"], ["updated_at", "2019-03-13 21:13:27.931380"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.936912"], ["updated_at", "2019-03-13 21:13:27.936912"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.942744"], ["updated_at", "2019-03-13 21:13:27.942744"]]
+  [1m[36m (4.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.951887"], ["updated_at", "2019-03-13 21:13:27.951887"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-13 21:13:27.958911"], ["updated_at", "2019-03-13 21:13:27.958911"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 14:13:42 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.8ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (893.1ms)
+Completed 200 OK in 1256ms (Views: 1163.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 14:13:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 14:13:50 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (52.4ms)
+Completed 200 OK in 123ms (Views: 119.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 14:13:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 14:14:52 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (52.9ms)
+Completed 200 OK in 107ms (Views: 103.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 14:14:53 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 14:14:55 -0700
+  [1m[36m (12.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (4.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateMovies (20150809022253)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/linux/Documents/groupProject/where-can-i-watch-it/db/migrate/20150809022253_create_movies.rb:10)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" varchar, "description" text, "release_date" datetime, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150809022253"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.688357"], ["updated_at", "2019-03-13 21:16:28.688357"]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.700926"], ["updated_at", "2019-03-13 21:16:28.700926"]]
+  [1m[36m (4.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.708391"], ["updated_at", "2019-03-13 21:16:28.708391"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.718023"], ["updated_at", "2019-03-13 21:16:28.718023"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.724623"], ["updated_at", "2019-03-13 21:16:28.724623"]]
+  [1m[35m (23.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.755199"], ["updated_at", "2019-03-13 21:16:28.755199"]]
+  [1m[36m (4.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.775976"], ["updated_at", "2019-03-13 21:16:28.775976"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.787433"], ["updated_at", "2019-03-13 21:16:28.787433"]]
+  [1m[36m (4.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "YouTube"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.796015"], ["updated_at", "2019-03-13 21:16:28.796015"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-13 21:16:28.814794"], ["updated_at", "2019-03-13 21:16:28.814794"]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-13 14:16:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (1.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (493.9ms)
+Completed 200 OK in 635ms (Views: 605.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-13 14:16:39 -0700
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-13 14:17:29 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 105ms (Views: 98.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sort=title" for 127.0.0.1 at 2019-03-13 14:17:32 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (1.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (3.9ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (35.6ms)
+Completed 200 OK in 135ms (Views: 123.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-13 14:17:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (24.6ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-14 16:38:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (27.8ms)
+Completed 200 OK in 171ms (Views: 90.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 16:38:33 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 16:38:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 16:38:33 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 16:38:34 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 16:38:34 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 16:38:34 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:38:34 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:38:40 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (22.8ms)
+Completed 200 OK in 102ms (Views: 89.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:38:40 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:38:44 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (2.8ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 99ms (Views: 91.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:38:45 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:38:45 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.8ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (25.7ms)
+Completed 200 OK in 114ms (Views: 109.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:38:46 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (4.9ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (18.4ms)
+Completed 200 OK in 156ms (Views: 96.7ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 16:40:05 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:40:06 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:40:07 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (21.5ms)
+Completed 200 OK in 110ms (Views: 100.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:40:08 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (1.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 104ms (Views: 70.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 16:45:30 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:45:31 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:45:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:45:34 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:45:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 54ms (Views: 49.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:45:36 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 104ms (Views: 76.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 16:46:04 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:46:05 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:46:06 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 16:46:07 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:54:48 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (3.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."search_movie" = 'amelie'[0m
+  Rendered movies/index.html.haml within layouts/application (47.6ms)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 5.2ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.search_movie: SELECT "movies".* FROM "movies" WHERE "movies"."search_movie" = 'amelie'):
+    24:       -# Highlight the header     #Create the link      #set sort to 'release_date'
+    25:       %th More Info
+    26:   %tbody
+    27:     - @movies.each do |movie|
+    28:       %tr
+    29:         %td= movie.title
+    30:         %td= movie.rating
+  app/views/movies/index.html.haml:27:in `_app_views_movies_index_html_haml___863452728402189224_47332743989000'
+
+
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.8ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.9ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (148.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=Amelie&commit=Search" for 127.0.0.1 at 2019-03-14 16:55:58 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."search_movie" = 'Amelie'[0m
+  Rendered movies/index.html.haml within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.1ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.search_movie: SELECT "movies".* FROM "movies" WHERE "movies"."search_movie" = 'Amelie'):
+    24:       -# Highlight the header     #Create the link      #set sort to 'release_date'
+    25:       %th More Info
+    26:   %tbody
+    27:     - @movies.each do |movie|
+    28:       %tr
+    29:         %td= movie.title
+    30:         %td= movie.rating
+  app/views/movies/index.html.haml:27:in `_app_views_movies_index_html_haml___863452728402189224_47332743989000'
+
+
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.9ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.0ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /home/linux/.rvm/gems/ruby-2.4.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.9ms)
+
+
+Started GET "/movies?sort=release_date" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[35mMovie Load (1.8ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 22ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 8ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.9ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:08 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 25ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?search_movie=amelie" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"amelie"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=amelie
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=Amelie&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:09 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%Amelie%')[0m
+  Rendered movies/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:10 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:10 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=Amelie&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%Amelie%')[0m
+  Rendered movies/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:14 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=Amelie&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:19 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Amelie", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%Amelie%')[0m
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:19 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:19 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:19 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:24 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%%')[0m
+  Rendered movies/index.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 55ms (Views: 49.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:25 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=terminator&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:32 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"terminator", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%terminator%')[0m
+  Rendered movies/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 82ms (Views: 58.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:32 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=terminator&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:34 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"terminator", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%terminator%')[0m
+  Rendered movies/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:35 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=terminator&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"terminator", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%terminator%')[0m
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:36 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=inator&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:41 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"inator", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%inator%')[0m
+  Rendered movies/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:42 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=a&commit=Search" for 127.0.0.1 at 2019-03-14 17:01:46 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"a", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%a%')[0m
+  Rendered movies/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:01:46 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=a&commit=Search" for 127.0.0.1 at 2019-03-14 17:06:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"a", "commit"=>"Search"}
+  [1m[35mMovie Load (0.9ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%a%')[0m
+  Rendered movies/index.html.haml within layouts/application (833.5ms)
+Completed 200 OK in 1041ms (Views: 1000.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-14 17:06:51 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:06:52 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=i&commit=Search" for 127.0.0.1 at 2019-03-14 17:07:04 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"i", "commit"=>"Search"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%i%')[0m
+  Rendered movies/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 54ms (Views: 50.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-14 17:07:05 -0700

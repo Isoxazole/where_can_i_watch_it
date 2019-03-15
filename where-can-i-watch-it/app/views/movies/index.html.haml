@@ -14,4 +14,21 @@
 %br
 %br
 
+%table#movies
+  %thead
+    %tr
+      %th{:class => hilite("title")}= link_to 'Movie Title', movies_path(:sort => 'title'), :id => "title_header"
+      -# Highlight the header     #Create the link      #set sort to 'title'
+      %th Provider
+      %th{:class => hilite("release_date")}= link_to 'Release Date', movies_path(:sort => 'release_date'), :id => "release_date_header"
+      -# Highlight the header     #Create the link      #set sort to 'release_date'
+      %th More Info
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= movie.title
+        %td= movie.rating
+        %td= movie.release_date
+        %td= link_to "More about #{movie.title}", movie_path(movie)
+
 = link_to 'Login / New User', new_movie_path

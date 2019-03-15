@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.4.4'
 
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use SCSS for stylesheets
@@ -58,7 +60,7 @@ end
 
 
 #Cucumber
-group :test do
-  gem 'cucumber', '~> 3.1.0'
-  gem 'rspec', '~> 3.7.0'
-end
+#group :test do
+  #gem 'cucumber', '~> 3.1.0'
+  #gem 'rspec', '~> 3.7.0'
+#end

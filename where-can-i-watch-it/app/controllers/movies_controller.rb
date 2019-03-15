@@ -12,8 +12,20 @@ class MoviesController < ApplicationController
 
   def index
 
+    @movies = Movie.search(@search_movie)
     @all_ratings = Movie.all_ratings
     redirect = false
+
+    if params[:search]
+      @search_movie = params[:search]
+      session[:search_movie] = params[:search]
+    elsif session[:search_movie]
+      @search_movie = session[:search_movie]
+      redirect = true
+    else
+      @search_movie = nil
+    end
+
 
     if params[:sort_by] #check if there's any new params
       @sort_by = params[:sort_by]
@@ -37,11 +49,11 @@ class MoviesController < ApplicationController
 
     if redirect
       flash.keep
-      redirect_to movies_path(:sort_by=>@sort_by, :ratings=>@ratings)
+      redirect_to movies_path(:sort_by=>@sort_by, :ratings=>@ratings, :search_movie => @search_movie)
 
     end
 
-    if @ratings and @sort_by
+    if @ratings and @sort_by and @search_movie
       @movies = Movie.where(:rating => @ratings.keys).order(@sort_by)
     elsif @ratings
       @movies = Movie.where(:rating => @ratings.keys)
@@ -49,6 +61,10 @@ class MoviesController < ApplicationController
       @movies = Movie.all.order(@sort_by)
     else
       @movies = Movie.all
+    end
+
+    if @search_movie
+      @movies = Movie.search(@search_movie)
     end
 
     unless @ratings
