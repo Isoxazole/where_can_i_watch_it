@@ -5750,3 +5750,142 @@ Completed 200 OK in 77ms (Views: 71.5ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 08:52:42 -0700
+
+
+Started GET "/movies?search_movie=i" for 127.0.0.1 at 2019-03-15 09:13:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"i"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?search_movie=term&sort_by=release_date
+Completed 302 Found in 69ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/movies?search_movie=term&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:25 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"term", "sort_by"=>"release_date"}
+  [1m[36mMovie Load (2.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE (title LIKE '%term%')  ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (467.7ms)
+Completed 200 OK in 559ms (Views: 551.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:26 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2019-03-15 09:13:30 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[36mMovie Load (6.0ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?search_movie=&sort_by=release_date
+Completed 302 Found in 10ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies?search_movie=&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:30 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"search_movie"=>"", "sort_by"=>"release_date"}
+  [1m[35mMovie Load (0.7ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%%')  ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (18.7ms)
+Completed 200 OK in 60ms (Views: 55.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:31 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPrimeVideo%5D=1&commit=Refresh" for 127.0.0.1 at 2019-03-15 09:13:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PrimeVideo"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:33 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"PrimeVideo"=>"1"}, "search_movie"=>"", "sort_by"=>"release_date"}
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PrimeVideo' AND (title LIKE '%%')  ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 59ms (Views: 53.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:33 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BHulu%5D=1&ratings%5BPrimeVideo%5D=1&commit=Refresh" for 127.0.0.1 at 2019-03-15 09:13:42 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Hulu"=>"1", "PrimeVideo"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?ratings%5BHulu%5D=1&ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date
+Completed 302 Found in 15ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5BHulu%5D=1&ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:42 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Hulu"=>"1", "PrimeVideo"=>"1"}, "search_movie"=>"", "sort_by"=>"release_date"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Hulu', 'PrimeVideo') AND (title LIKE '%%')  ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 62ms (Views: 55.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:43 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&commit=Refresh" for 127.0.0.1 at 2019-03-15 09:13:46 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Hulu"=>"1", "Netflix"=>"1", "PrimeVideo"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://localhost:3000/movies?ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&search_movie=&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:46 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Hulu"=>"1", "Netflix"=>"1", "PrimeVideo"=>"1"}, "search_movie"=>"", "sort_by"=>"release_date"}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Hulu', 'Netflix', 'PrimeVideo') AND (title LIKE '%%')  ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:47 -0700
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&ratings%5BYouTube%5D=1&commit=Refresh" for 127.0.0.1 at 2019-03-15 09:13:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Hulu"=>"1", "Netflix"=>"1", "PrimeVideo"=>"1", "YouTube"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.8ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://localhost:3000/movies?ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&ratings%5BYouTube%5D=1&search_movie=&sort_by=release_date
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/movies?ratings%5BHulu%5D=1&ratings%5BNetflix%5D=1&ratings%5BPrimeVideo%5D=1&ratings%5BYouTube%5D=1&search_movie=&sort_by=release_date" for 127.0.0.1 at 2019-03-15 09:13:49 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Hulu"=>"1", "Netflix"=>"1", "PrimeVideo"=>"1", "YouTube"=>"1"}, "search_movie"=>"", "sort_by"=>"release_date"}
+  [1m[35mMovie Load (1.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('Hulu', 'Netflix', 'PrimeVideo', 'YouTube') AND (title LIKE '%%')  ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 70ms (Views: 62.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 09:13:49 -0700
