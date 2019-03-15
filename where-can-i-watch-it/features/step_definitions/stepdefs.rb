@@ -98,3 +98,37 @@ Then("the user should no results.") do
 	pending # Write code here that turns the phrase above into concrete actions
 end
 
+
+module LoginStepHelper
+	def login
+		
+	end
+end
+
+Given("the username is not already taken") do
+end 
+When("the user enters a username for new account") do
+end
+Then("the account is created") do
+end
+ 
+Given("the username is already taken") do
+end
+When("the user enters a username for new account") do
+end
+Then("the account is not created") do
+end    
+
+Given("the user password is correct") do
+end    
+When("the user enters in the correct password") do
+end
+Then("the user is able to login") do
+end
+    
+Given("the user password is not correct") do
+end
+When("the user enters in the wrong password") do
+end
+Then("the user is not able to login") do
+end
