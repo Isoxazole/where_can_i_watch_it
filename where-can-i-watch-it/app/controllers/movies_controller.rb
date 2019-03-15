@@ -21,7 +21,7 @@ class MoviesController < ApplicationController
       session[:search_movie] = params[:search]
     elsif session[:search_movie]
       @search_movie = session[:search_movie]
-      redirect = true
+
     else
       @search_movie = nil
     end
@@ -53,7 +53,7 @@ class MoviesController < ApplicationController
 
     end
 
-    if @ratings and @sort_by and @search_movie
+    if @ratings and @sort_by
       @movies = Movie.where(:rating => @ratings.keys).order(@sort_by)
     elsif @ratings
       @movies = Movie.where(:rating => @ratings.keys)
@@ -64,7 +64,7 @@ class MoviesController < ApplicationController
     end
 
     if @search_movie
-      @movies = Movie.search(@search_movie)
+      @movies = @movies.search(@search_movie)
     end
 
     unless @ratings
