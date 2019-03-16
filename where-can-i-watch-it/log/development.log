@@ -6363,3 +6363,432 @@ Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976
 
 
 Started GET "/assets/folk-pattern-black.png" for 127.0.0.1 at 2019-03-15 18:40:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.617160"], ["updated_at", "2019-03-16 22:43:20.617160"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.622326"], ["updated_at", "2019-03-16 22:43:20.622326"]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.627283"], ["updated_at", "2019-03-16 22:43:20.627283"]]
+  [1m[35m (3.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.631727"], ["updated_at", "2019-03-16 22:43:20.631727"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.636574"], ["updated_at", "2019-03-16 22:43:20.636574"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.641148"], ["updated_at", "2019-03-16 22:43:20.641148"]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.646000"], ["updated_at", "2019-03-16 22:43:20.646000"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.650646"], ["updated_at", "2019-03-16 22:43:20.650646"]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "YouTube"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.655491"], ["updated_at", "2019-03-16 22:43:20.655491"]]
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-16 22:43:20.659783"], ["updated_at", "2019-03-16 22:43:20.659783"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.710611"], ["updated_at", "2019-03-16 22:53:39.710611"]]
+  [1m[35m (3.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.716275"], ["updated_at", "2019-03-16 22:53:39.716275"]]
+  [1m[36m (3.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.721460"], ["updated_at", "2019-03-16 22:53:39.721460"]]
+  [1m[35m (3.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.726602"], ["updated_at", "2019-03-16 22:53:39.726602"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.731302"], ["updated_at", "2019-03-16 22:53:39.731302"]]
+  [1m[35m (3.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.736255"], ["updated_at", "2019-03-16 22:53:39.736255"]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.741225"], ["updated_at", "2019-03-16 22:53:39.741225"]]
+  [1m[35m (3.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.746210"], ["updated_at", "2019-03-16 22:53:39.746210"]]
+  [1m[36m (4.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "YouTube"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.751948"], ["updated_at", "2019-03-16 22:53:39.751948"]]
+  [1m[35m (4.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-16 22:53:39.757564"], ["updated_at", "2019-03-16 22:53:39.757564"]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 22:55:19 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.6ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:29: syntax error, unexpected ')'
+end=( link_to 'Movie Title', );@output_buffer.safe_append='
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+nd=( link_to 'Release Date', );@output_buffer.safe_append='
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+'.freeze;     @movies.each do |movie| 
+                             ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+                 ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  app/views/movies/index.html.erb:29: syntax error, unexpected ')'
+  app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+  app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+  app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.4ms)
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (269.2ms)
+Completed 200 OK in 322ms (Views: 320.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-03d014809cb8a183c23d855587c6e53bc0f19116ea9976afc38e13d88ee7ea02.css?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5f00a0bdb5440146a2a8df1b92c4dff3b441ee2f22bc7486db6fa834323f62f.css?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.56.213.143 at 2019-03-16 23:06:02 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:06:03 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:06:37 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <% #  This file is app/views/movies/index.html.haml %>
+    2: <h1>Welcome!</h1>
+    3: <%= form_tag movies_path, :id => "search bar", :method => :get do %>
+    4:   <p>
+    5:     <%= text_field_tag :search, params[:search], class: "form-control" %>
+    6:     <%= submit_tag "Search", :id => "search_submit" %>
+    7:   </p>
+  app/views/movies/index.html.haml:4
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:07:00 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:29: syntax error, unexpected ')'
+end=( link_to 'Movie Title', );@output_buffer.safe_append='
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+nd=( link_to 'Release Date', );@output_buffer.safe_append='
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+'.freeze;     @movies.each do |movie| 
+                             ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+                 ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  app/views/movies/index.html.erb:29: syntax error, unexpected ')'
+  app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+  app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+  app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:07:42 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+nd=( link_to 'Release Date', );@output_buffer.safe_append='
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+'.freeze;     @movies.each do |movie| 
+                             ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+                 ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  app/views/movies/index.html.erb:35: syntax error, unexpected ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected keyword_do_block, expecting ')'
+  app/views/movies/index.html.erb:58: syntax error, unexpected keyword_end, expecting ')'
+  app/views/movies/index.html.erb:62: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/movies/index.html.erb:64: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:07:54 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:07:55 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPrimeVideo%5D=1&commit=Refresh" for 71.56.213.143 at 2019-03-16 23:08:14 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PrimeVideo"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PrimeVideo'[0m
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 12.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:08:14 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 71.56.213.143 at 2019-03-16 23:10:12 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://node20.codenvy.io:43939/movies?ratings%5BPrimeVideo%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?ratings%5BPrimeVideo%5D=1" for 71.56.213.143 at 2019-03-16 23:10:12 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"PrimeVideo"=>"1"}}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PrimeVideo'
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:10:12 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 71.56.213.143 at 2019-03-16 23:10:18 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+Redirected to http://node20.codenvy.io:43939/movies?ratings%5BPrimeVideo%5D=1
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?ratings%5BPrimeVideo%5D=1" for 71.56.213.143 at 2019-03-16 23:10:18 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"PrimeVideo"=>"1"}}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PrimeVideo'[0m
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:10:18 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPrimeVideo%5D=1&ratings%5BYouTube%5D=1&commit=Refresh" for 71.56.213.143 at 2019-03-16 23:10:21 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PrimeVideo"=>"1", "YouTube"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PrimeVideo', 'YouTube')[0m
+  Rendered movies/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:10:21 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BYouTube%5D=1&commit=Refresh" for 71.56.213.143 at 2019-03-16 23:10:25 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"YouTube"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'YouTube'[0m
+  Rendered movies/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:10:25 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.56.213.143 at 2019-03-16 23:12:09 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+Redirected to http://node20.codenvy.io:43939/movies?ratings%5BYouTube%5D=1
+Completed 302 Found in 18ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?ratings%5BYouTube%5D=1" for 71.56.213.143 at 2019-03-16 23:12:10 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"YouTube"=>"1"}}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'YouTube'
+  Rendered movies/index.html.erb within layouts/application (158.7ms)
+Completed 200 OK in 183ms (Views: 181.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 71.56.213.143 at 2019-03-16 23:12:10 +0000
+Cannot render console from 71.56.213.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
