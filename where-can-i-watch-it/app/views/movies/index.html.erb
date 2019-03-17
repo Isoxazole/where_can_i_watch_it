@@ -1,0 +1,64 @@
+<% #  This file is app/views/movies/index.html.erb %>
+<head>
+    <%= stylesheet_link_tag 'default' %>
+</head>
+<h1>Welcome!</h1>
+<%= form_tag movies_path, :id => "search bar", :method => :get do %>
+  <p>
+    <%= text_field_tag :search, params[:search], class: "form-control" %>
+    <%= submit_tag "Search", :id => "search_submit" %>
+  </p>
+<% end %>
+<br/>
+<br>
+  <p>
+    <%= image_tag ("main_screen_logos.png") %>
+  </p>
+</br>
+<br/>
+<br/>
+<%= form_tag movies_path, :id=>'ratings_form', :method => :get do %>
+  Include:
+  <% @all_ratings.each do |rating| %>
+    <%= rating %>
+    <%= check_box_tag "ratings[#{rating}]", 1, ( @ratings[rating]),  :id=>"ratings[#{rating}]" %>
+  <% end %>
+  <%= submit_tag 'Refresh', :id=>"ratings_submit" %>
+<% end %>
+<table id="movies">
+  <thead>
+    <tr>
+      <th class="<%= ("hilite" if @sort_by == "title") %>">
+        <%= link_to 'Movie Title' %>
+      </th>
+      movies_path(:sort_by => 'title', :ratings=>@ratings), :id => "title_header"
+      <% # Highlight the header     #Create the link      #set sort to 'title' %>
+      <th>Provider</th>
+      <th class="<%= ("hilite" if @sort_by == "release_date") %>">
+        <%= link_to 'Release Date' %>
+      </th>
+      movies_path(:sort_by => 'release_date', :ratings=>@ratings), :id => "release_date_header"
+      <% # Highlight the header     #Create the link      #set sort to 'release_date' %>
+      <th>More Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @movies.each do |movie| %>
+      <tr>
+        <td>
+          <%= movie.title %>
+        </td>
+        <td>
+          <%= movie.rating %>
+        </td>
+        <td>
+          <%= movie.release_date %>
+        </td>
+        <td>
+          <%= link_to "More about #{movie.title}", movie_path(movie) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'Login / New User', new_movie_path %>
