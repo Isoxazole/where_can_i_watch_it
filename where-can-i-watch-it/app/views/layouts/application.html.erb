@@ -2,12 +2,20 @@
 <html>
   <head>
     <title>Where Can I Watch It?</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <%= stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag 'default' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <h1 class="title">Where Can I Watch It?</h1>
+    <div class="jumbotron jumbotron-fluid text-center" style="background-color: black">
+        <%= link_to 'Login / New User', new_movie_path, :id => "Login"%>
+        <h1>Where Can I Watch It?</h1>
+        <p>Welcome to Where Can I Watch It!
+            <br> Here, you can search for a movie and see the different services that you can stream the movie from. 
+            <br>Try it out.</p>
+    </div>
     <div id="main">
       <% if flash[:notice] %>
         <div class="message" id="notice">

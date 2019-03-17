@@ -3,10 +3,35 @@ html, body
   margin: 0;
   padding: 0;
   background-image: url("folk-pattern-black.png");
-  color: DarkSlateGrey;
-  font-family: Tahoma, Verdana, sans-serif;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
   font-size: 10pt;
+}
 
+.jumbotron
+{
+    background-color: red;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Login
+{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    color: white;
+}
+
+#Login:hover
+{
+    text-decoration: none;
+}
+
+.container-fluid
+{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
 }
 
 div#main
@@ -19,14 +44,13 @@ a
 {
   background: transparent;
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
 }
 
 h1
 {
   color: white;
-  background-image: linear-gradient(blue, black);
   font-size: 150%;
   font-style: italic;
   display: block;
@@ -39,11 +63,35 @@ h1.title
 {
   margin: 0 0 1em;
   padding: 10px;
-  background-color: blue;
   color: white;
   font-size: 2em;
   font-style: normal;
   text-align: center;
+}
+
+#extend
+{
+    margin-left: 550px;
+    
+}
+
+#search_submit
+{
+    background-color: white;
+    margin-left: 55px;
+}
+
+table a
+{
+    color: white;
+}
+
+table a:hover
+{
+    background: gray;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 table#movies
@@ -51,14 +99,12 @@ table#movies
   margin: 10px;
   border-collapse: collapse;
   width: 100%;
-  border-bottom: 2px solid black;
 }
 
 table#movies th
 {
   border: 2px solid white;
   font-weight: bold;
-  background-color: wheat;
 }
 
 table#movies th, table#movies td
@@ -74,20 +120,23 @@ table#movies th, table#movies td
   padding: 4px;
 }
 
-form label
+.Logo
 {
-  display: block;
-  line-height: 25px;
-  font-weight: bold;
-  color: maroon;
+    height: 150px;
+    width: 255px;
+    background-color: #1F1D1D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-table#movies th.hilite
+#ratings_submit
 {
-  background-color: yellow;
+    color: black;
+    margin-left: 10px;
 }
 
-p
+#ratings_form
 {
-  text-align: center;
+    margin-left: 10px;
 }
