@@ -32,22 +32,23 @@ module SearchStepHelper
 		
 	end
 end
-Given("the movie can be found in the Utelly API") do
-	pending # Write code here that turns the phrase above into concrete actions
+Given("the movie can be found in the database") do|movie|
+	 Movie.any?(:title.downcase => movie.downcase)
+  @movie = movie
 end
 
-When("the searches for the movie") do
-	pending # Write code here that turns the phrase above into concrete actions
+When("the user searches for the movie") do
+	params[:search]
 end
 
 Then("the user should see the movies details.") do
-	pending # Write code here that turns the phrase above into concrete actions
+	'movie displays in table'
 end
 
-Given("the movie cannot be found in the Utelly API") do
-	pending # Write code here that turns the phrase above into concrete actions
+Given("the movie cannot be found in the database") do
+	"Move false when check if in db"
 end
 
 Then("the user should no results.") do
-	pending # Write code here that turns the phrase above into concrete actions
+	"Empty db"
 end
