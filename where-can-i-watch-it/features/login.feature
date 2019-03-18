@@ -3,8 +3,8 @@ Feature: login
     
     
 Scenario: the user creates an account with a unique username
-    Given the username is not already taken
-    When the user enters a username for new account
+    Given the user enters an email for new account
+    When the email is not already taken
     Then the account is created
     
 Scenario: the user creates an account with a username already taken

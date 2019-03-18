@@ -9,8 +9,16 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <div align="right" style="background-color: black">
+        <% if user_signed_in? %>
+            <%= link_to(current_user.email, edit_user_registration_path) %> 
+            <%= link_to('- Log Out', destroy_user_session_path, method: :delete) %>
+        <% else %>
+            <%= link_to('Login / Sign up', new_user_session_path) %>
+        <% end %>    
+   </div>
+
     <div class="jumbotron jumbotron-fluid text-center" style="background-color: black">
-        <%= link_to 'Login / New User', new_movie_path, :id => "Login"%>
         <h1>Where Can I Watch It?</h1>
         <p>Welcome to Where Can I Watch It!
             <br> Here, you can search for a movie and see the different services that you can stream the movie from. 
