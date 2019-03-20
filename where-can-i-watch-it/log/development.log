@@ -23067,3 +23067,1517 @@ Completed 200 OK in 254ms (Views: 239.3ms | ActiveRecord: 0.8ms)
 
 Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 20:49:49 +0000
 Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:02:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (243.2ms)
+Completed 200 OK in 340ms (Views: 320.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:02:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:02:57 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 1926ms (Views: 1923.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.self-aa55b5ba7192f0f2892ffb67c75ac751aa0e74ae59dbc03de6674736de98dd06.css?body=1" for 128.198.114.126 at 2019-03-20 21:02:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:02:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:03:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 1305ms (Views: 1302.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-70d19fbf7293874d3a5cf4a3f857c1f884fd10c2a637deedefc0eb29c9172520.css?body=1" for 128.198.114.126 at 2019-03-20 21:03:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:03:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:04:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 1253ms (Views: 1251.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-3bb0e1c48415e194b3ecc7c10f5c9c1e449e730c8cd941c990bdf60c06b4bdd5.css?body=1" for 128.198.114.126 at 2019-03-20 21:04:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:04:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:04:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 1238ms (Views: 1236.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-fc21ed6d669c1a81becf99d1185d0c4219979ce57563ab3bee97af64d861c158.css?body=1" for 128.198.114.126 at 2019-03-20 21:04:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:04:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:04:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1318ms (Views: 1316.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-28c1e38a473e630c92243c9c44f2ead21f980f98a8f50a2cd6cbeb491b8b8579.css?body=1" for 128.198.114.126 at 2019-03-20 21:04:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:04:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:04:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 1195ms (Views: 1193.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4f67adadc562b64162e624b035ab2ea645498c46ae0cb9de5bb6c7a162c2a6d3.css?body=1" for 128.198.114.126 at 2019-03-20 21:04:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:04:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:05:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1969ms (Views: 1967.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-a7db6d56de4eb633f55bd9742de9a74089cc99a086f30bfae9681c2026487aa8.css?body=1" for 128.198.114.126 at 2019-03-20 21:05:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:05:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:05:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 1944ms (Views: 1935.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4f0f84f3db30cf8e8e0982c4b0520272fa7b883658232d8a85a96512268c92b7.css?body=1" for 128.198.114.126 at 2019-03-20 21:05:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:05:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:05:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1144ms (Views: 1142.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-6d4b26246dd2403ddf7f1ddadde311b049a09c3588f160a13550cc6212c20994.css?body=1" for 128.198.114.126 at 2019-03-20 21:05:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:05:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:07:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:08:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 1900ms (Views: 1896.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-932ba9cc1b526debcb96c036bbe16bdb0d0ce0ccca396449bc05c06a1d4f2260.css?body=1" for 128.198.114.126 at 2019-03-20 21:08:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:08:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:08:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:12:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (69.4ms)
+Completed 200 OK in 213ms (Views: 181.7ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:13:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xB5ZBahlnHNWnKt5dl5zK1jVlfKg5fEVcV/WRWfv02CnOXnGgpzirrGLZXhqG73SWdzKCWswAdwnbkdN12gN4A==", "user"=>{"email"=>"Test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xB5ZBahlnHNWnKt5dl5zK1jVlfKg5fEVcV/WRWfv02CnOXnGgpzirrGLZXhqG73SWdzKCWswAdwnbkdN12gN4A==", "user"=>{"email"=>"Test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (8.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:13:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:13:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (1.7ms)
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 110ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:17:45 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1090ms (Views: 1089.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-6c5ebd84c6fd2b5378ae774e6d8485e136ff57cdf67bbec070ce119007c70599.css?body=1" for 128.198.114.126 at 2019-03-20 21:17:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:17:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:19:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1145ms (Views: 1144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-306aa9e1a5289d5b0ae8a9a0fa268f360b14430a3fc2b005116f4e4418683ff5.css?body=1" for 128.198.114.126 at 2019-03-20 21:19:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:19:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:20:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:21:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:21:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:21:37 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:21:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:23:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:23:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:24:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:24:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1077ms (Views: 1076.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-8967d11948ca4972a0038076afcaafd732f37c67668cf9b2bc4daaa46d2d59f6.css?body=1" for 128.198.114.126 at 2019-03-20 21:24:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:24:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:25:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1029ms (Views: 1028.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-74a80361004a8ff724d0044601ec83ddc353b1b7f13b0c13596ba79e52bcd3c1.css?body=1" for 128.198.114.126 at 2019-03-20 21:25:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:25:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:25:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1066ms (Views: 1064.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-7e4ae49f07ac04c2216c5fbf583ecb6d8201141137f1dbe7ad9ce9d01f897e27.css?body=1" for 128.198.114.126 at 2019-03-20 21:25:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:25:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:25:38 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1046ms (Views: 1045.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-2e6abbc00d2005bcfc1f4e59839f007ef5ecb005e2c46f393309e6bd94ebece8.css?body=1" for 128.198.114.126 at 2019-03-20 21:25:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:25:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:26:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:26:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:26:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:26:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:27:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:27:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:27:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:29:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:29:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:31:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1064ms (Views: 1063.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-da7582250874e91ad633de86f7b2dc8d505a88e2ceebe4e2838836f15acb64c5.css?body=1" for 128.198.114.126 at 2019-03-20 21:31:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:31:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:31:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:31:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:32:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:32:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:32:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1056ms (Views: 1055.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-d3fa3f305a61f176ae48d1e6dec2f4fba3414d90e56dfdcdc326033c00506018.css?body=1" for 128.198.114.126 at 2019-03-20 21:32:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:32:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:33:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:33:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:33:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:34:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:37:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:37:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:37:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:38:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:38:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:39:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (211.4ms)
+Completed 200 OK in 282ms (Views: 267.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:39:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.438875"], ["updated_at", "2019-03-20 21:56:26.438875"]]
+  [1m[35m (3.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.444287"], ["updated_at", "2019-03-20 21:56:26.444287"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.449125"], ["updated_at", "2019-03-20 21:56:26.449125"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.453993"], ["updated_at", "2019-03-20 21:56:26.453993"]]
+  [1m[36m (3.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.459195"], ["updated_at", "2019-03-20 21:56:26.459195"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.463925"], ["updated_at", "2019-03-20 21:56:26.463925"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.468634"], ["updated_at", "2019-03-20 21:56:26.468634"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.473351"], ["updated_at", "2019-03-20 21:56:26.473351"]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "YouTube"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.479051"], ["updated_at", "2019-03-20 21:56:26.479051"]]
+  [1m[35m (3.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-20 21:56:26.483625"], ["updated_at", "2019-03-20 21:56:26.483625"]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 21:56:50 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (190.4ms)
+Completed 200 OK in 268ms (Views: 252.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.self-da7582250874e91ad633de86f7b2dc8d505a88e2ceebe4e2838836f15acb64c5.css?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a61f08a8744d834c9a866b905cd92703bf2ffdb321c68f268586dec29c03c009.css?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 128.198.114.126 at 2019-03-20 21:56:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:56:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:56:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 103ms (Views: 93.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:57:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1178ms (Views: 1176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-c7bf3c192f491c6247d955692613630e41554fb4205362516af01235b193efa9.css?body=1" for 128.198.114.126 at 2019-03-20 21:57:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:57:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 21:58:00 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:58:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:58:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 21:59:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 21:59:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:00:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1059ms (Views: 1057.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-4a1d40446703006e59a3131046750429d0f3cc3b73b0dfaafac4290d5645b0c0.css?body=1" for 128.198.114.126 at 2019-03-20 22:00:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:00:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:00:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:00:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:00:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1175ms (Views: 1174.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-be71af7febaaf143526ee6e480be7127a090db672e528d6258c3cae4cfc645e4.css?body=1" for 128.198.114.126 at 2019-03-20 22:00:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:00:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:01:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:01:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:02:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1116ms (Views: 1115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-6d4b26246dd2403ddf7f1ddadde311b049a09c3588f160a13550cc6212c20994.css?body=1" for 128.198.114.126 at 2019-03-20 22:02:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:02:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:02:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1186ms (Views: 1184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-358621fada888b29f968450a2fb88aa7a72bb0eb4b25039d4f80b3e6fb8fd781.css?body=1" for 128.198.114.126 at 2019-03-20 22:02:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:02:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:03:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1141ms (Views: 1139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-45c9f23fda381db47ed25ffd92152cdbd02bdf4f6d67c4fdb8e68f79967a1f97.css?body=1" for 128.198.114.126 at 2019-03-20 22:03:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:03:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:03:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:03:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:03:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:04:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:04:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:04:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:04:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:04:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:04:15 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:04:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1081ms (Views: 1079.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-c408a1f6d00b058ee0761d33413df802f48db5173fce9c636b584c3f42b6bc7a.css?body=1" for 128.198.114.126 at 2019-03-20 22:04:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:04:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:05:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 100ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:05:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:06:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:06:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:06:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:07:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:09:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:10:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:10:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:10:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:10:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:10:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:11:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1083ms (Views: 1082.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-f2bb0bdea3e9361dd5f214de438c5dc63aa5d33639e707ff52a5d134c053e0cd.css?body=1" for 128.198.114.126 at 2019-03-20 22:11:15 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:11:16 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:11:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:11:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:12:18 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:12:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:13:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:13:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:13:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:16:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:16:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:16:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:20:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:20:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:21:57 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:23:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:23:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:24:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:24:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:25:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 1134ms (Views: 1133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-e48171378e5ec692ed2eb5f3cd4a7050ff27e43c31a58df0db8c85c19a6ef6cf.css?body=1" for 128.198.114.126 at 2019-03-20 22:26:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:26:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:27:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 1045ms (Views: 1044.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-9193de3c7e192128415780ecd7581d9d0d2da321b3090ded3da1d7ae67b49cd1.css?body=1" for 128.198.114.126 at 2019-03-20 22:27:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:27:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:27:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:18: syntax error, unexpected ',', expecting keyword_then or ';' or '\n'
+  if @minimum_password_length, :class => 'field-label' 
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:32: syntax error, unexpected keyword_end, expecting end-of-input
+'.freeze; end 
+             ^):
+  app/views/devise/registrations/new.html.erb:18: syntax error, unexpected ',', expecting keyword_then or ';' or '\n'
+  app/views/devise/registrations/new.html.erb:32: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.9ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:27:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:19: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+mum_password_length, :class => 'field-label' );@output_buffe
+                              ^):
+  app/views/devise/registrations/new.html.erb:19: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:28:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:28:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:18: syntax error, unexpected ',', expecting keyword_then or ';' or '\n'
+  if @minimum_password_length, :class => 'field-label' 
+                              ^
+/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:32: syntax error, unexpected keyword_end, expecting end-of-input
+'.freeze; end 
+             ^):
+  app/views/devise/registrations/new.html.erb:18: syntax error, unexpected ',', expecting keyword_then or ';' or '\n'
+  app/views/devise/registrations/new.html.erb:32: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:28:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/devise/registrations/new.html.erb:19: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+mum_password_length, :class => 'field-label' );@output_buffe
+                              ^):
+  app/views/devise/registrations/new.html.erb:19: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:29:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:29:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:29:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:30:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:31:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:31:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:32:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:32:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 128.198.114.126 at 2019-03-20 22:32:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)

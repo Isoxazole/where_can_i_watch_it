@@ -17,9 +17,6 @@ html, body
 
 #Login
 {
-    float: right;
-    margin-top: -40px;
-    margin-right: 20px;
     color: white;
 }
 
@@ -124,7 +121,6 @@ table#movies th, table#movies td
 {
     height: 150px;
     width: 255px;
-    background-color: #1F1D1D;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,4 +135,19 @@ table#movies th, table#movies td
 #ratings_form
 {
     margin-left: 10px;
+}
+
+.btn
+{
+    color: black;
+}
+
+.field
+{
+    color: black;
+}
+
+.field-label
+{
+    color: white;
 }
