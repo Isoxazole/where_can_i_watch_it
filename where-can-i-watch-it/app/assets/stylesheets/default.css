@@ -8,13 +8,6 @@ html, body
   font-size: 10pt;
 }
 
-.jumbotron
-{
-    background-color: red;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-}
-
 #Login
 {
     color: white;
