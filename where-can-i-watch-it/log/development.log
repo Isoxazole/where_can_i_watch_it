@@ -24805,3 +24805,2092 @@ Processing by Devise::PasswordsController#new as HTML
   Rendered devise/shared/_links.html.erb (0.3ms)
   Rendered devise/passwords/new.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:53:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (208.6ms)
+Completed 200 OK in 280ms (Views: 266.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:53:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:53:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 69ms (Views: 63.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:53:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.8ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:53:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:53:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 128.198.114.126 at 2019-03-20 22:53:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 22:53:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 22:53:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:56:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:57:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/projects/group9_spring2019/where-can-i-watch-it/app/views/layouts/application.html.erb:17: syntax error, unexpected ',', expecting ')'
+n up', new_user_session_path), :id => 'Login' );@output_buff
+                              ^):
+  app/views/layouts/application.html.erb:17: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:59:50 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 22:59:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 22:59:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:00:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:00:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:00:38 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:00:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:00:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:00:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:00:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:01:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1211ms (Views: 1209.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-5c1b0dfc974c4e653424055de4fd169f8e48b571e4ab5243910b5854c3be7f10.css?body=1" for 128.198.114.126 at 2019-03-20 23:01:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:01:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:02:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1202ms (Views: 1200.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-94b2bff6f9bf7a511e1cbda6ba919a3a8b449284067b1849878468d11c64620d.css?body=1" for 128.198.114.126 at 2019-03-20 23:02:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:02:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:03:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 1142ms (Views: 1139.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.self-d3d8491df0b06d561ac9f4314fa065989863e941192420b875d4bcb0ab58aedc.css?body=1" for 128.198.114.126 at 2019-03-20 23:03:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:03:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:03:18 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 1139ms (Views: 1137.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-78605a8b4c7fb503e8b4f6fb4ac4c8b6631074f429785bb863ebc50ba6890adb.css?body=1" for 128.198.114.126 at 2019-03-20 23:03:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:03:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:03:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:03:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 1047ms (Views: 1045.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4c17baf403d6e3c22b3df1c0d8874fed3386b00e7b1f49e66cb9683527f281ca.css?body=1" for 128.198.114.126 at 2019-03-20 23:03:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:03:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:04:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 1139ms (Views: 1136.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-6acc8fb2194a7cdf9ce10a39f518ed728f7ad7f7f9a588d5c110327798f859eb.css?body=1" for 128.198.114.126 at 2019-03-20 23:04:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:04:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:04:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:04:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:05:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 1347ms (Views: 1344.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-52c8b99aceb6004a65380cb9bee976fa4ce7e3f780bf3d325e010bfd277a7512.css?body=1" for 128.198.114.126 at 2019-03-20 23:05:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:05:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:05:45 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 1327ms (Views: 1324.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-3dbe11f6d014a4037d4e719d39e72dd20148e021ec8b6816bca6518f12e478e3.css?body=1" for 128.198.114.126 at 2019-03-20 23:05:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:05:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:35 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 23:06:37 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:06:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 23:10:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:10:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:10:35 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:13:45 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 1094ms (Views: 1092.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:13:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-3f4226f55c15296be63e7b92fa7886d872755fe1e01a507718d75eb3995c3b1f.css?body=1" for 128.198.114.126 at 2019-03-20 23:13:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:13:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:13:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:14:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:14:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1071ms (Views: 1069.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-d6b96c864e73b3bd8e5b02a7a85855f4ad3d4c00c8f548cec0a8d70714f48dbb.css?body=1" for 128.198.114.126 at 2019-03-20 23:14:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:14:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:15:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 1209ms (Views: 1207.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-d621885c6c77ce0dc4dfabe2d77fc48c216b3eb934e949c6007893f762681383.css?body=1" for 128.198.114.126 at 2019-03-20 23:15:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:15:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:15:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1082ms (Views: 1080.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-dd71872e9761a475606c1f94b4834776189d00e4fd6390733ee97cc8dbcbd5e0.css?body=1" for 128.198.114.126 at 2019-03-20 23:15:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:15:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:16:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 1158ms (Views: 1156.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-a1bfa2fc8821bc0f91e388bfcf81e252820a585945ccd558f3f06432acb09522.css?body=1" for 128.198.114.126 at 2019-03-20 23:16:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:16:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:16:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1178ms (Views: 1176.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-7d8f857cc473651ede01727d5bc6661ef867711689bb1c397be26337b9451180.css?body=1" for 128.198.114.126 at 2019-03-20 23:16:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:16:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:16:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 1079ms (Views: 1077.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-47d0a55adfe25415551db1177f59dda8f692f6e36b479871c1c67c7de2a5afbd.css?body=1" for 128.198.114.126 at 2019-03-20 23:16:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:16:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:17:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:18:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:18:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 23:19:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:35 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-20 23:19:37 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:38 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 128.198.114.126 at 2019-03-20 23:19:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-20 23:19:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:19:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:29:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 1157ms (Views: 1155.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-3b32d563056da2969347e036d00c85cc44439519aeb4f09264878677792bb8ac.css?body=1" for 128.198.114.126 at 2019-03-20 23:29:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:29:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:31:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 1049ms (Views: 1047.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-1a8b5b3834851ca06a4b3afc138169afecaaa4204aa41899836620c125dd0b96.css?body=1" for 128.198.114.126 at 2019-03-20 23:31:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:31:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:31:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 1204ms (Views: 1202.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-d960784ab5532952155daca3f6c43bcc416406458c016b8f809545ae9e6a88b4.css?body=1" for 128.198.114.126 at 2019-03-20 23:31:18 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:31:18 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:31:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 1148ms (Views: 1146.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-c4b0f8cbd55edbaf5ba3b7b449045b08f1682007a0e20ae18af84ef7167a7a44.css?body=1" for 128.198.114.126 at 2019-03-20 23:31:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:31:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:31:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 1316ms (Views: 1314.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4d4978076500d35f612cf619a6dc5cbcf357f6b1a6c09a0a371d2d9e6d38286f.css?body=1" for 128.198.114.126 at 2019-03-20 23:31:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:31:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:32:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1165ms (Views: 1163.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-9f78fc3311ee3a5dcee343df4ee4a72913c201f334c4759eae0c90444517fa38.css?body=1" for 128.198.114.126 at 2019-03-20 23:32:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:32:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:34:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 1090ms (Views: 1088.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-81c5354c407eafb910f36c56c54a1fd193e010880ca12b7361be33a0ba00cae4.css?body=1" for 128.198.114.126 at 2019-03-20 23:34:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:34:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:34:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 1141ms (Views: 1139.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-308e5dde658c39f0fb669ea922bbc6958eadea44a1b0334c87c762db242893cb.css?body=1" for 128.198.114.126 at 2019-03-20 23:34:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:34:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:35:01 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 1335ms (Views: 1328.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-a82eff885e3d8ecba67926d49f1eaef6b91b9b82757c5e8460a7578628ca1bef.css?body=1" for 128.198.114.126 at 2019-03-20 23:35:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:35:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:35:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 1489ms (Views: 1487.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.self-9a20074705e9411ff1d7fd148e60ad07339b43054a4863824136e30e29bd19a5.css?body=1" for 128.198.114.126 at 2019-03-20 23:35:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:35:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:35:43 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:36:00 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:36:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 2192ms (Views: 2187.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.self-ebc19e69a736502ef2dc9d62afc12526e2201df16a28905c4e24d84322105a66.css?body=1" for 128.198.114.126 at 2019-03-20 23:36:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:36:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:37:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 1873ms (Views: 1871.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-ef0b23586d1ac978a72edfbabb758c3de99fcc80f78ddbc29dc24a8f3ca27114.css?body=1" for 128.198.114.126 at 2019-03-20 23:37:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:37:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:37:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 1787ms (Views: 1785.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-913ad9fd318ec9fd35771d0d8ccd8ea9a1fa91f8b3ca4e85a5b0325597d04f45.css?body=1" for 128.198.114.126 at 2019-03-20 23:37:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:37:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:37:37 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 1753ms (Views: 1751.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-c44c80a37c067657e2d55fdcd0f8e4510249892a25776876e87ec784f46d5393.css?body=1" for 128.198.114.126 at 2019-03-20 23:37:38 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:37:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:38:10 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (8.9ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 121ms (Views: 106.5ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:38:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:38:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 1274ms (Views: 1271.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.self-4a876e08b592e9504138981d704ad70ffcab7064de0e8c8807443eb821212cbc.css?body=1" for 128.198.114.126 at 2019-03-20 23:38:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:38:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:38:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 1326ms (Views: 1324.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-e99ea502f51efd8c93c4def7586b61929bc39744e730c8720026ebdaa256ebfc.css?body=1" for 128.198.114.126 at 2019-03-20 23:38:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:38:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:38:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 1401ms (Views: 1398.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-ed18c2ff0a2da7b8a44bef89f1dde7b52d0f1cf58683ce84525b52b5fb9a346e.css?body=1" for 128.198.114.126 at 2019-03-20 23:38:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:38:46 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:39:12 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 1155ms (Views: 1152.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-14ad412ce7b4e74f07f9a398311a79dde6c147a702605f26be9adc36b8d49f48.css?body=1" for 128.198.114.126 at 2019-03-20 23:39:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:39:14 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:39:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:39:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:39:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:39:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:40:15 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 1441ms (Views: 1436.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-fad299d64165abf8f8964ede5db2578cc43e036fb5a527c28f71e36a3224371b.css?body=1" for 128.198.114.126 at 2019-03-20 23:40:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:40:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:40:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 1211ms (Views: 1207.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-dca41aa22d2c656d2761b01b2425050cb956ddb2d3136b0491ec86f2de521b5f.css?body=1" for 128.198.114.126 at 2019-03-20 23:40:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:40:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:41:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 1273ms (Views: 1271.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-f7fa1373f707c21d97a5e3b0cb357d7ca79da39e021e2a709936ee760c1db242.css?body=1" for 128.198.114.126 at 2019-03-20 23:41:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:41:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:42:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 1316ms (Views: 1313.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-5060966a5b34e6d4642681c3af1e7c6c89f835def4f3e74befc31e0a64f3ecb0.css?body=1" for 128.198.114.126 at 2019-03-20 23:42:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:42:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:43:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 1192ms (Views: 1189.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-4b8de375fd45898dd68e1a98ce665d1b6494ad24c8f7b6069cf3f0605b8d6d66.css?body=1" for 128.198.114.126 at 2019-03-20 23:43:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:43:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:43:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 1177ms (Views: 1175.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-bd57a691190693620107312ed41c8a1cc32c9d09c4b490f150a7e7b88ebb19f8.css?body=1" for 128.198.114.126 at 2019-03-20 23:43:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:43:49 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:44:09 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 1332ms (Views: 1327.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/default.self-6ca6c2298dec7eddfe2154d9e3d3c5af9b7c685c8f9a090401a3b0a60515adca.css?body=1" for 128.198.114.126 at 2019-03-20 23:44:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:44:11 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:44:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 1660ms (Views: 1657.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-6bb2db3c39d6ad8196b741e3a8e8e6e7b553a47387a02241b768eea90a674373.css?body=1" for 128.198.114.126 at 2019-03-20 23:44:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:44:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:44:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 1523ms (Views: 1520.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.self-c9cddab2121f0fcef74bbcb85b54726b2bc9fa28241c2b2cd810e117d43821ad.css?body=1" for 128.198.114.126 at 2019-03-20 23:44:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:44:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:44:36 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:44:44 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 1112ms (Views: 1110.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-80df56511e55c123433c813fce13c68fc46f59aaccc755d45270a71c25d5619a.css?body=1" for 128.198.114.126 at 2019-03-20 23:44:45 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:44:45 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-20 23:45:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 1269ms (Views: 1267.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-f8bc88ff6990fd62e2d00be2755d57fa62a56fa6271ed71c4926a0463282a799.css?body=1" for 128.198.114.126 at 2019-03-20 23:45:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-20 23:45:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (224.2ms)
+Completed 200 OK in 295ms (Views: 279.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/default.self-c9cddab2121f0fcef74bbcb85b54726b2bc9fa28241c2b2cd810e117d43821ad.css?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a61f08a8744d834c9a866b905cd92703bf2ffdb321c68f268586dec29c03c009.css?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:58 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:09:59 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:12:33 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 1149ms (Views: 1147.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4b83998c7b18c00ba93eac6d51dedfbf648d604b42978621f5ff25bfde37b72c.css?body=1" for 128.198.114.126 at 2019-03-21 00:12:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:12:34 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:12:47 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 1123ms (Views: 1121.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-544fd3161f3e5c6fe5f7808b536bdfdb7f7f93e0dd888e5b6cf88ad161e40234.css?body=1" for 128.198.114.126 at 2019-03-21 00:12:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:12:48 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:13:18 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1112ms (Views: 1110.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-6a1773930877a08dcb154fe609ca5a54dcbe74cc8c73e71fe294a63800396a8a.css?body=1" for 128.198.114.126 at 2019-03-21 00:13:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:13:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:13:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 1071ms (Views: 1069.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-4ccf47d7cfe9fdd67a47575803c8c5623098d6dfa1c89e0d63b3f703f1fb152b.css?body=1" for 128.198.114.126 at 2019-03-21 00:13:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:13:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:13:38 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1109ms (Views: 1107.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-6298670a67f7a4e11cbe39bdca13abc2ba9ca53c72870218fb322314d140c8c0.css?body=1" for 128.198.114.126 at 2019-03-21 00:13:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:13:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:13:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 1229ms (Views: 1227.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-fa0cc419430b3e4f62777c1254972e1900b7bb28294a102a83bb5732bd1e6d39.css?body=1" for 128.198.114.126 at 2019-03-21 00:13:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:13:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:14:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 1043ms (Views: 1041.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-398ed71e12112f075a80699fb39f19184f3ae340cc522aba2377fd16dcdb8fd5.css?body=1" for 128.198.114.126 at 2019-03-21 00:14:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:14:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:14:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 1100ms (Views: 1098.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-86fbcaa1900977562f8f607928ac24676b43fd1ca044e142445c7277970ef0ad.css?body=1" for 128.198.114.126 at 2019-03-21 00:14:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:14:21 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:14:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 1128ms (Views: 1126.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-f7dbbe21b36b793a37a9f1c6705d16d858a3241bdbc5e4efaa806fb50d032c4d.css?body=1" for 128.198.114.126 at 2019-03-21 00:14:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:14:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:14:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 1012ms (Views: 1010.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-29d90b8cfc22a7a46d040b7f7927eca071eea1fced0234de11677fb94c3cdb5e.css?body=1" for 128.198.114.126 at 2019-03-21 00:14:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:14:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 1072ms (Views: 1071.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-c7d4c84fdefb55958a08c262a2da213140bacd42407f4284cc35d06a42527e1b.css?body=1" for 128.198.114.126 at 2019-03-21 00:15:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:15:05 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:15 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 1060ms (Views: 1058.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-235f571f9bb8c0a08dcebd489ce9bd102459f79865be49dc43b77c3c5ba455d1.css?body=1" for 128.198.114.126 at 2019-03-21 00:15:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:15:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:20 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 66ms (Views: 61.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 1094ms (Views: 1092.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-bedf744fff8e30f629082531608ac55c2b9034ef62120fa31cfa2c58360ec620.css?body=1" for 128.198.114.126 at 2019-03-21 00:15:29 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:15:30 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1056ms (Views: 1054.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-ca446695ea594ce32e9c4fb9634043696d62df056721a88ac2da496c230c40f1.css?body=1" for 128.198.114.126 at 2019-03-21 00:15:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:15:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:15:50 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 1133ms (Views: 1132.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-9eeac05a7f60a2d68b5d312661982fd62780fba597696a50f610a9ef4319e084.css?body=1" for 128.198.114.126 at 2019-03-21 00:15:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:15:51 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:16:02 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1039ms (Views: 1037.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-ef93309782d6a476c83ac78bdd4d756d24fa1c76fc6cca8c9345a21d90276d4c.css?body=1" for 128.198.114.126 at 2019-03-21 00:16:03 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:16:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:16:31 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 1124ms (Views: 1121.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-0cf95cf8be8b5b55685d9f9cb188ee94440f4e127f7df96edcb09ce7e761ba3d.css?body=1" for 128.198.114.126 at 2019-03-21 00:16:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:16:32 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:16:39 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 1035ms (Views: 1033.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-8e979bbbd23aa1e1c223531e912a89ad3f23fa8c8528210d3ad7d29f7522457e.css?body=1" for 128.198.114.126 at 2019-03-21 00:16:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:16:40 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:17:06 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1053ms (Views: 1051.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-c36ef55eb21da748c6d9a02e7d3fe8c828cd48c53a0ddaf300322cf62def496e.css?body=1" for 128.198.114.126 at 2019-03-21 00:17:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:17:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:17:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 1040ms (Views: 1038.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-743de430cc9fcb56b5c4695646bfa5b04558ecfbe9230634e231d941998d1cea.css?body=1" for 128.198.114.126 at 2019-03-21 00:17:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:17:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:20:07 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1068ms (Views: 1066.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-d9b06129857975f517105ec0113ff81e24cf0497aa60f4e10228cdf74ffeffae.css?body=1" for 128.198.114.126 at 2019-03-21 00:20:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:20:08 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:20:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 1078ms (Views: 1076.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-5dfc8f816313cbc0d3fe2c5abcb336d573bcf1e08fff50404c0cf848a1675722.css?body=1" for 128.198.114.126 at 2019-03-21 00:20:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:20:27 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:20:41 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 1021ms (Views: 1019.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-82c05c620612bb535383f12b54327df8b4acb0fcc16f103ea7cc68eaa65ce12d.css?body=1" for 128.198.114.126 at 2019-03-21 00:20:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:20:42 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:20:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:20:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:21:24 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 1049ms (Views: 1047.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-8a00391845cbc0f0f26759fdf9313718a7657f6e964ce6a0a94f350e5cdea3f3.css?body=1" for 128.198.114.126 at 2019-03-21 00:21:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:21:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:21:55 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1029ms (Views: 1027.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-36be5673dcc6fcc72695b45aca60e291f91ceb7f1764de3db79f2dce3d97c7a8.css?body=1" for 128.198.114.126 at 2019-03-21 00:21:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:21:56 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:22:16 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:22:16 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:22:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:22:26 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 00:22:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 00:22:52 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/?utf8=%E2%9C%93&search=&commit=Search" for 128.198.114.126 at 2019-03-21 00:22:57 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%%')[0m
+  Rendered movies/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "Netflix"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.757334"], ["updated_at", "2019-03-21 19:39:29.757334"]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "Netflix"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.763201"], ["updated_at", "2019-03-21 19:39:29.763201"]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "PrimeVideo"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.768347"], ["updated_at", "2019-03-21 19:39:29.768347"]]
+  [1m[35m (3.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PrimeVideo"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.773403"], ["updated_at", "2019-03-21 19:39:29.773403"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PrimeVideo"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.778140"], ["updated_at", "2019-03-21 19:39:29.778140"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "Hulu"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.782681"], ["updated_at", "2019-03-21 19:39:29.782681"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "Hulu"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.787463"], ["updated_at", "2019-03-21 19:39:29.787463"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "YouTube"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.792051"], ["updated_at", "2019-03-21 19:39:29.792051"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "YouTube"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.798523"], ["updated_at", "2019-03-21 19:39:29.798523"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "YouTube"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2019-03-21 19:39:29.803293"], ["updated_at", "2019-03-21 19:39:29.803293"]]
+  [1m[36m (5.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (230.0ms)
+Completed 200 OK in 301ms (Views: 285.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.self-36be5673dcc6fcc72695b45aca60e291f91ceb7f1764de3db79f2dce3d97c7a8.css?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a61f08a8744d834c9a866b905cd92703bf2ffdb321c68f268586dec29c03c009.css?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:53 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 19:39:54 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-21 19:41:04 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 98ms (Views: 87.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-21 19:41:13 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.7ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-21 19:41:15 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-21 19:41:17 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-21 19:41:19 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 128.198.114.126 at 2019-03-21 19:41:22 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (0.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-21 19:41:23 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 128.198.114.126 at 2019-03-21 19:41:25 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.198.114.126 at 2019-03-21 19:41:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.114.126 at 2019-03-21 19:41:28 +0000
+Cannot render console from 128.198.114.126! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

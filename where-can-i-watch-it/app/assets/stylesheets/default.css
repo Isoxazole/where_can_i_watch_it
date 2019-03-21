@@ -1,21 +1,22 @@
 html, body 
 {
-  margin: 0;
-  padding: 0;
   background-image: url("folk-pattern-black.png");
   color: white;
   font-family: 'Exo 2', sans-serif;
   font-size: 10pt;
 }
 
-#Login
+#Login a
 {
     color: white;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
 }
 
-#Login:hover
+#Login a:hover
 {
-    text-decoration: none;
+    background-color: gray;
 }
 
 .container-fluid
@@ -112,11 +113,10 @@ table#movies th, table#movies td
 
 .Logo
 {
-    height: 150px;
-    width: 255px;
+    height: 100%;
+    width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10%;
 }
 
 #ratings_submit
@@ -143,4 +143,17 @@ table#movies th, table#movies td
 .field-label
 {
     color: white;
+}
+
+#Services
+{
+    width: 100%;
+}
+
+#Services h1
+{
+    text-align: left;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-left: -30px;
 }
