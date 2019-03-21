@@ -3,6 +3,8 @@
     <%= stylesheet_link_tag 'default' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    
+    <title>Home</title>
 </head>
 <body>
     <div id="main-container" class="container-fluid">
@@ -13,7 +15,7 @@
                         <%= text_field_tag :search, params[:search], :class => "form-control", :id => "extend" %>
                     </div>
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <%= submit_tag "Search", :id => "search_submit",  :class => "btn" %>
+                        <%= submit_tag "Search", :id => "search_submit", :class => "btn" %>
                     </div>
                 <% end %>
             </form>
@@ -37,19 +39,24 @@
                 <%= image_tag ("White_Youtube_Logo.png"), :class => "Logo"%>
             </div>
         </div>
-        </br>
         <br/>
         <br/>
         <div class="row">
-            <%= form_tag movies_path, :id=>'ratings_form', :method => :get do %>
-              Include:
-              <% @all_ratings.each do |rating| %>
-                <%= rating %>
-                <%= check_box_tag "ratings[#{rating}]", 1, ( @ratings[rating]),  :id=>"ratings[#{rating}]" %>
-              <% end %>
-              <%= submit_tag 'Refresh', :id=>"ratings_submit" %>
-            <% end %>
-            <table id="movies" class="table table-dark">
+            <div class = "filters col-lg-1 col-md-1">
+                <%= form_tag movies_path, :id=>'ratings_form', :method => :get do %>
+                  <h1>Include:</h1>
+                  <hr>
+                  <% @all_ratings.each do |rating| %> 
+                    <br>
+                    <%= check_box_tag "ratings[#{rating}]", 1, ( @ratings[rating]),  :id=>"ratings[#{rating}]", :class =>"form-check-label form-inline" %>
+                    <h4 id="rating"><%= rating %></h4>
+                  <% end %>
+                  <br>
+                  <%= submit_tag 'Refresh', :id=> "ratings_submit" %>
+                <% end %>
+            </div>
+        
+            <table id="movies" class="table table-dark offset-lg-1 offset-md-1 col-lg-10 col-md-10">
               <thead>
                 <tr>
                   <th class="<%= ("hilite" if @sort_by == "title") %>">
@@ -63,7 +70,7 @@
                   </th>
 
                   <% # Highlight the header     #Create the link      #set sort to 'release_date' %>
-                  <th>More Info</th>
+                  <th id="More">More Info</th>
                 </tr>
               </thead>
               <tbody>
