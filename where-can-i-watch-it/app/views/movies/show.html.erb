@@ -1,5 +1,5 @@
 <% # in app/views/movies/show.html.haml %>
-<h2>Details about #{@movie.title}</h2>
+<h2>Details about <%=@movie.title %></h2>
 <ul id="details">
   <li>
     Rating:
@@ -14,6 +14,10 @@
 <p id="description">
   <%= @movie.description %>
 </p>
+<h3>Comments (<%= @movie.comments.size %>)</h3>
+<%= render partial: 'movies/comment', collection: @movie.comments %>
+<%= render partial: 'movies/form' %>
+
 <%= link_to 'Edit', edit_movie_path(@movie) %>
 <%= button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?' %>
 <%= link_to 'Back to movie list', movies_path %>

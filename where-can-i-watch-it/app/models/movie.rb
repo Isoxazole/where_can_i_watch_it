@@ -1,5 +1,6 @@
 #Movie.rb
 class Movie < ActiveRecord::Base
+  has_many :comments
   def self.all_ratings
     array = Array.new
     self.select("rating").uniq.each {|x| array.push(x.rating)}
