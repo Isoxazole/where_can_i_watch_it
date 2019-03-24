@@ -1,4 +1,4 @@
-#Main CSS Page
+/*Main CSS Page*/
 
 html, body 
 {
@@ -154,4 +154,9 @@ table#movies th, table#movies td
 hr
 {
     background-color: white;
+}
+
+#comments
+{
+    color: white;
 }
