@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url(<%= asset_path('folk-pattern-black.png') %>);
+  background: url(/assets/folk-pattern-black-166a0ad4979aec888495b19ae9f254e1558253f07bfbec1ff16e29a13d393e44.png);
   color: DarkSlateGrey;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 10pt;
