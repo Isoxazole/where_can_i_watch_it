@@ -20,6 +20,10 @@ Rails.application.routes.draw do
     resources :comments
   end
   
+  resources :favorite_movies, only: [:create, :destroy]
+  
+  get '/favorites', to: 'favorite_movies#favorites', as: 'favorites'
+  
   # Example resource route with options:
   #   resources :products do
   #     member do
