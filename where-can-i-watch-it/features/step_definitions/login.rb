@@ -1,4 +1,4 @@
-
+=begin
 module LoginStepHelper
     
 	def create_visitor
@@ -78,3 +78,5 @@ end
 Then("the user is not able to login") do
       page.should have_content "Invalid email or password."
 end
+
+=end
