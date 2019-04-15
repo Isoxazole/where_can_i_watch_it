@@ -1,5 +1,12 @@
 require 'rails_helper'
 
-RSpec.describe Comment, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Comment do
+  describe 'create comment for movie' do
+    context 'with movie page open' do
+      it 'should be able to create a comment' do
+        a = Movie.first
+        a.comments.new
+      end
+    end
+  end
 end

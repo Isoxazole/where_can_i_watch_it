@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'selenium-webdriver'
+
 module LockoutStepHelper
 	def lockout
 	end
@@ -32,23 +35,43 @@ module SearchStepHelper
 		
 	end
 end
-Given("the movie can be found in the database") do|movie|
-	 Movie.any?(:title.downcase => movie.downcase)
-  @movie = movie
+Given("the movie can be found in the database") do
+	 Movie.where(:title => 'Aladdin').any?
+   @driver = Selenium::WebDriver.for :firefox
+   @driver.get "http://localhost:3000/"
 end
 
 When("the user searches for the movie") do
-	params[:search]
+
+  element = @driver.find_element(:name, "search")
+  element.send_keys "Aladdin"
+  element.submit
 end
 
-Then("the user should see the movies details.") do
-	'movie displays in table'
+Then("the user should see the movie.") do
+	wait = Selenium::WebDriver::Wait.new(timeout: 10)
+  wait.until { @driver.find_element(:tag_name,'td').text.include? "Aladdin"}
+  @driver.close
+
 end
 
 Given("the movie cannot be found in the database") do
-	"Move false when check if in db"
+  !Movie.where(:title => 'Power Rangers').any?
+  @driver = Selenium::WebDriver.for :firefox
+  @driver.get "http://localhost:3000/"
 end
 
-Then("the user should no results.") do
-	"Empty db"
+When("the user searches for a move not in the db") do
+  element = @driver.find_element(:name, "search")
+  element.send_keys "Power Rangers"
+  element.submit
+end
+
+Then("the user should see no results.") do
+  begin
+    @driver.find_element(:tag_name,'td').text.include? "Power Rangers"
+  rescue
+    true
+  end
+  @driver.close
 end
