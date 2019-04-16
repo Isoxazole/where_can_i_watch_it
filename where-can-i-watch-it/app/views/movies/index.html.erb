@@ -59,6 +59,7 @@
             <table id="movies" class="table table-dark offset-lg-1 offset-md-1 col-lg-10 col-md-10">
               <thead>
                 <tr>
+                  <th id="Poster">Poster</th>
                   <th class="<%= ("hilite" if @sort_by == "title") %>">
                     <%= link_to 'Movie Title', movies_path(:sort_by => 'title', :ratings=>@ratings), :id=> "title_header"  %>
                   </th>
@@ -76,6 +77,8 @@
               <tbody>
                 <% @movies.each do |movie| %>
                   <tr>
+                    <td>
+                       <%= image_tag (movie.imgurl), :class => "Poster"%>
                     <td>
                       <%= movie.title %>
                     </td>
