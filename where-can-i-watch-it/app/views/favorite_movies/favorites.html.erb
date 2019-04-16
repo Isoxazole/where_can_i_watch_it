@@ -48,6 +48,9 @@
                 <% @favorites.each do |movie| %>
                   <tr>
                     <td>
+                       <%= image_tag (movie.imgurl), :class => "Poster"%>
+                    </td>
+                    <td>
                       <%= movie.title %>
                     </td>
                     <td>

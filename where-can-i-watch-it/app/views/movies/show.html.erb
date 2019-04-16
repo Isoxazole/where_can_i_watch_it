@@ -1,6 +1,9 @@
 <% # in app/views/movies/show.html.haml %>
 <h2>Details about <%=@movie.title %></h2>
 <ul id="details">
+ <li>
+ <%= image_tag (@movie.imgurl), :class => "Poster"%>
+ </li>
   <li>
     Rating:
     <%= @movie.rating %>
