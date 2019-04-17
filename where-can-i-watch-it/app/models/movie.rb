@@ -8,12 +8,14 @@ class Movie < ActiveRecord::Base
   end
 
   def self.search(search)
-    key = "%#{search}%"
-    if search
-      where('title LIKE ?', key)
-    else
-      all
+    if (search.is_a?(String))
+        newsearch = search.downcase.strip
+        key = "%#{newsearch}%"
+        if search
+            where('lower(title) LIKE ?', key)
+            else
+            all
+            end
+        end
     end
-  end
-
 end
