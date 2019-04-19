@@ -109,5 +109,14 @@ class MoviesController < ApplicationController
     
     @movies = Movie.order('favcounter DESC')   
   end
+  
+  def recent_releases
+  @movies = Movie.all
+  
+  time_range = 14
+  
+  @movies = Movie.where("release_date >= ?", (Date.today - time_range))
+  
+  end
 
 end
