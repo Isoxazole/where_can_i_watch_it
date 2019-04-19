@@ -14,7 +14,17 @@ class MoviesController < ApplicationController
   end
 
   def index
-
+    
+    if clear_filters?
+        params[:sort_by] = nil
+        session[:sort_by] = nil
+        params[:search] = nil
+        session[:search_movie] = nil
+        params[:ratings] = nil
+        session[:ratings] = nil
+        
+    end
+    
     @movies = Movie.search(@search_movie)
     @all_ratings = Movie.all_ratings
     redirect = false
@@ -113,10 +123,17 @@ class MoviesController < ApplicationController
   def recent_releases
   @movies = Movie.all
   
+  
+   @all_ratings = ['G','PG','PG-13','R']
+   
   time_range = 14
   
   @movies = Movie.where("release_date >= ?", (Date.today - time_range))
   
+  end
+
+  def clear_filters?
+    params[:commit] == "Clear"
   end
 
 end
