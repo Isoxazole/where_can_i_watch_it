@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   
   resources :favorite_movies, only: [:create, :destroy]
   
+  get '/popular', to: "movies#popular"
+  
   get '/favorites', to: 'favorite_movies#favorites', as: 'favorites'
   
   # Example resource route with options:

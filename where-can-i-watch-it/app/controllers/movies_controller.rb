@@ -1,7 +1,7 @@
 class MoviesController < ApplicationController
 
   def movie_params
-    params.require(:movie).permit(:title, :rating, :description, :release_date)
+    params.require(:movie).permit(:title, :rating, :description, :release_date, :favcounter)
   end
 
   def show
@@ -102,6 +102,12 @@ class MoviesController < ApplicationController
     @movie.destroy
     flash[:notice] = "Movie '#{@movie.title}' deleted."
     redirect_to movies_path
+  end
+  
+  def popular
+    @movies = Movie.all
+    
+    @movies = Movie.order('favcounter DESC')   
   end
 
 end
