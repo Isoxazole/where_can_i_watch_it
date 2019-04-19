@@ -45954,3 +45954,335 @@ Processing by MoviesController#index as HTML
   [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
   Rendered movies/index.html.erb within layouts/application (21.3ms)
 Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:36:41 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (196.2ms)
+Completed 200 OK in 273ms (Views: 257.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-04-19 20:36:41 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/?utf8=%E2%9C%93&search=L&commit=Search" for 65.154.122.205 at 2019-04-19 20:36:48 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"L", "commit"=>"Search"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%l%')[0m
+  Rendered movies/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=L&commit=Search" for 65.154.122.205 at 2019-04-19 20:36:50 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"L", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%l%')[0m
+  Rendered movies/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=MhA&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:02 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"MhA", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=like&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:07 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"like", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%like%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=Like&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:12 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Like", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%like%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:15 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%%')[0m
+  Rendered movies/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=A&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:20 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"A", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%a%')[0m
+  Rendered movies/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search=th&commit=Search" for 65.154.122.205 at 2019-04-19 20:37:39 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"th", "commit"=>"Search"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%th%')[0m
+  Rendered movies/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BYoutube%5D=1&commit=Refresh" for 65.154.122.205 at 2019-04-19 20:37:53 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Youtube"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'Youtube' AND (lower(title) LIKE '%th%')[0m
+  Rendered movies/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 45ms (Views: 40.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?ratings%5BYoutube%5D=1&sort_by=title" for 65.154.122.205 at 2019-04-19 20:37:56 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"Youtube"=>"1"}, "sort_by"=>"title"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'Youtube' AND (lower(title) LIKE '%th%')  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BYoutube%5D=1&commit=Clear" for 65.154.122.205 at 2019-04-19 20:37:59 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"Youtube"=>"1"}, "commit"=>"Clear"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/popular" for 65.154.122.205 at 2019-04-19 20:38:17 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY favcounter DESC LIMIT 10
+  Rendered movies/popular.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recent_releases" for 65.154.122.205 at 2019-04-19 20:38:20 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE (release_date >= '2019-04-05') LIMIT 10[0m
+  Rendered movies/recent_releases.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:52:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/projects/where-can-i-watch-it/app/controllers/movies_controller.rb:120: syntax error, unexpected '=', expecting ')'
+irect_to movies_path(:search = params[:search])
+                              ^
+/projects/where-can-i-watch-it/app/controllers/movies_controller.rb:120: syntax error, unexpected ')', expecting keyword_end
+ath(:search = params[:search])
+                              ^
+/projects/where-can-i-watch-it/app/controllers/movies_controller.rb:141: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/movies_controller.rb:120: syntax error, unexpected '=', expecting ')'
+  app/controllers/movies_controller.rb:120: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/movies_controller.rb:141: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:52:56 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (192.1ms)
+Completed 200 OK in 259ms (Views: 251.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-04-19 20:52:57 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/popular" for 65.154.122.205 at 2019-04-19 20:53:02 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY favcounter DESC LIMIT 10
+  Rendered movies/popular.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/popular?utf8=%E2%9C%93&search=MHa&commit=Search" for 65.154.122.205 at 2019-04-19 20:53:06 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"MHa", "commit"=>"Search"}
+Redirected to http://node17.codenvy.io:55540/movies?search=MHa
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?search=MHa" for 65.154.122.205 at 2019-04-19 20:53:06 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"search"=>"MHa"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')
+  Rendered movies/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:53:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')
+  Rendered movies/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 46ms (Views: 38.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-04-19 20:53:48 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Clear" for 65.154.122.205 at 2019-04-19 20:53:52 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Clear"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/recent_releases" for 65.154.122.205 at 2019-04-19 20:53:55 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE (release_date >= '2019-04-05') LIMIT 10[0m
+  Rendered movies/recent_releases.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recent_releases?utf8=%E2%9C%93&search=apostle&commit=Search" for 65.154.122.205 at 2019-04-19 20:54:00 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"apostle", "commit"=>"Search"}
+Redirected to http://node17.codenvy.io:55540/movies?search=apostle
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?search=apostle" for 65.154.122.205 at 2019-04-19 20:54:00 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"search"=>"apostle"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%apostle%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 65.154.122.205 at 2019-04-19 20:54:02 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 75ms (Views: 69.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users/sign_in" for 65.154.122.205 at 2019-04-19 20:54:08 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bnvnVEMFvu0mDO5tLgihkRt/S9t6kr8qHMKir1PiCkUPiOT6mc43QkOnqzGs2L15pdF/bsEDIhOYbNnvqZ+PTw==", "user"=>{"email"=>"andrewsmcgrath@yahoo.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "andrewsmcgrath@yahoo.com"]]
+Redirected to http://node17.codenvy.io:55540/
+Completed 302 Found in 157ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:54:08 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%apostle%')
+  Rendered movies/index.html.erb within layouts/application (6.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/favorites" for 65.154.122.205 at 2019-04-19 20:54:11 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  Parameters: {"authenticity_token"=>"VS6WFlWl4C2Zn7lhZFsS7M/eyE2OBwhmsy5+HOcd6LBgdKiIhRKpFCpN+gQjWxXQyClFvdUmuG12TPANv+df1w=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 1], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 67ms (Views: 43.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites?utf8=%E2%9C%93&search=MHa&commit=Search" for 65.154.122.205 at 2019-04-19 20:54:16 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"MHa", "commit"=>"Search"}
+Redirected to http://node17.codenvy.io:55540/movies?search=MHa
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/movies?search=MHa" for 65.154.122.205 at 2019-04-19 20:54:16 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"search"=>"MHa"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')
+  Rendered movies/index.html.erb within layouts/application (5.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-04-19 20:55:08 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-04-19 20:55:08 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Clear" for 65.154.122.205 at 2019-04-19 20:55:12 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Clear"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (21.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.5ms)

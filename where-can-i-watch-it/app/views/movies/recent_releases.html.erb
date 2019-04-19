@@ -58,7 +58,7 @@
                 </tr>
               </thead>
               <tbody>
-                <% @movies.each do |movie| %>
+                <% @movies.take(10).each do |movie| %>
                   <tr>
                     <td>
                        <%= image_tag (movie.imgurl), :class => "Poster"%>

@@ -115,16 +115,23 @@ class MoviesController < ApplicationController
   end
   
   def popular
+  
+    if params[:search]
+        redirect_to movies_path(:search => params[:search])
+    end
+    
     @movies = Movie.all
     
     @movies = Movie.order('favcounter DESC')   
   end
   
   def recent_releases
+  
+  if params[:search]
+        redirect_to movies_path(:search => params[:search])
+    end
+  
   @movies = Movie.all
-  
-  
-   @all_ratings = ['G','PG','PG-13','R']
    
   time_range = 14
   

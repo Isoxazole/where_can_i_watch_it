@@ -6,7 +6,7 @@ class FavoriteMoviesController < ApplicationController
     if Favorite.create(favorited: @movie, user: current_user)
         @movie.favcounter += 1
         @movie.save
-      redirect_to @movie, notice: 'Project has been favorited'
+      redirect_to @movie, notice: '#{@movie.title} has been favorited'
     else
       redirect_to @movie, alert: 'Something went wrong...*sad panda*'
     end
@@ -17,10 +17,15 @@ class FavoriteMoviesController < ApplicationController
     @movie.favcounter -= 1
     @movie.save
     Favorite.where(favorited_id: @movie.id, user_id: current_user.id).first.destroy
-    redirect_to @movie, notice: 'Project is no longer in favorites'
+    redirect_to @movie, notice: '#{@movie.title} is no longer in favorites'
   end
   
   def favorites
+  
+    if params[:search]
+        redirect_to movies_path(:search => params[:search])
+    end
+  
     @favorites = current_user.favorite_movies
   end
   
