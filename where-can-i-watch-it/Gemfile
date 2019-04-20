@@ -69,6 +69,7 @@ group :test do
   gem 'database_cleaner'
   gem 'rspec', '~> 3.7.0'
   gem 'selenium-webdriver', '~> 2.46.2'
+  gem 'flog'
 end
 
 #Bootstrap

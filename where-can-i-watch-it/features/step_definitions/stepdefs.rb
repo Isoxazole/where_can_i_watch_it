@@ -36,7 +36,7 @@ module SearchStepHelper
 	end
 end
 Given("the movie can be found in the database") do
-	 Movie.where(:title => 'Aladdin').any?
+	 Movie.where(:title => 'Apostle').any?
    @driver = Selenium::WebDriver.for :firefox
    @driver.get "http://localhost:3000/"
 end
@@ -44,13 +44,13 @@ end
 When("the user searches for the movie") do
 
   element = @driver.find_element(:name, "search")
-  element.send_keys "Aladdin"
+  element.send_keys "Apostle"
   element.submit
 end
 
 Then("the user should see the movie.") do
 	wait = Selenium::WebDriver::Wait.new(timeout: 10)
-  wait.until { @driver.find_element(:tag_name,'td').text.include? "Aladdin"}
+  wait.until { @driver.find_element(:id,'movies').text.include? "Apostle"}
   @driver.close
 
 end
