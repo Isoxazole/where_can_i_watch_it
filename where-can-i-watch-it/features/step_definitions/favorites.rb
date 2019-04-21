@@ -11,7 +11,7 @@ module FavoritesStepHelper
 	  visit '/users/sign_in'
 	  fill_in "user_email", :with => @visitor[:email]
 	  fill_in "user_password", :with => @visitor[:password]
-	  click_button "Sign in"
+	  click_button "Log in"
 	end
 end
 
@@ -21,16 +21,28 @@ World FavoritesStepHelper
 Given("the user is on the movies page") do
     create_visitor
     sign_in
-    visit "/movies/1"
-    page.should have_content "Aladdin"
+    visit '/'
+    
+    #page.find_by_id("Poster").has_text?("Apostle")
+    #page.all(".articles .article[id='foo']")
+    #find('div.strong', text: 'Apostle')
+    #page.find('div', text: 'Apostle', visible: :false)
+   #within('strong.card-text') do
+    #    page.body.should have_content ('Apostle')
+    #end
+    #page.find('strong', text: 'Apostle', exact: true)
+    #find("div", match: :first)
+   # page.find('#div')['card-text', card-text == "Apostle"]
+    #page.find('strong.card-text', text: 'Apostle')
+    #find('div.card text-white bg-dark mb-3').click
     
 end
 When("the user presses the 'add to favorites button'") do
     click_button "Favorites link"
-    page.should_not have_content "Favorites link"
+    page.should_not have_content "Add to favorites"
 end
 Then("the movie is added to their favorites list") do
-    page.should have_content "Remove from favorites"
+    page.should have_content "Add to favorites"
 end
     
 #   Scenario: the user removes a movie to their favorites list

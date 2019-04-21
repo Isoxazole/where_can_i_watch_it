@@ -58,7 +58,7 @@
          <% @movies.each do |movie| %>
          <div class="card text-white bg-dark mb-3">
             <a href="<%= movie_path(movie) %>"><%= image_tag(movie.imgurl)%><a>
-            <strong class="card-text"><%= movie.title %></strong>
+            <strong class="card-text" :id = 'Poster'><%= movie.title %></strong>
             <p class="card-text"><%= movie.rating %></p>
             <p class="card-text"><%= movie.release_date %></p>
          </div>
