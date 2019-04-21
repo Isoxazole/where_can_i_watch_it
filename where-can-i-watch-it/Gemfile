@@ -70,6 +70,7 @@ group :test do
   gem 'rspec', '~> 3.7.0'
   gem 'selenium-webdriver', '~> 2.46.2'
   gem 'flog'
+  gem 'code_metrics'
 end
 
 #Bootstrap
