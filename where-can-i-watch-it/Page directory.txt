@@ -1,0 +1,9 @@
+Navbar/Search bar/Top Links - app/views/layouts/application.html.erb
+Home Page - app/views/movies/index.html.erb
+New Movies - app/views/movies/recent_releases.html.erb
+Popular Movies - app/views/movies/popular.html.erb
+Log In - devise/session/new.html.erb
+Sign Up - app/views/devise/registrations/new.html.erb
+Favorites - app/views/movies/favorites.html.erb
+Change Password - app/views/devise/passwords/edit.html.erb
+Post A Comment - app/views/movies/_form.html.erb

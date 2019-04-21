@@ -1,25 +1,15 @@
-<% #  This file is app/views/movies/favorites.html.erb %>
+<% #  This file is Favorites in app/views/movies/favorites.html.erb %>
 <head>
     <%= stylesheet_link_tag 'default' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
     
     <title>Favorites</title>
 </head>
 <body>
     <div id="main-container" class="container-fluid">
-        <div class="row">
-            <form class="form-inline">
-                <%= form_tag movies_path, :id => "search bar", :method => :get do %>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-                        <%= text_field_tag :search, params[:search], :class => "form-control", :id => "extend" %>
-                    </div>
-                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                        <%= submit_tag "Search", :id => "search_submit", :class => "btn" %>
-                    </div>
-                <% end %>
-            </form>
-        </div>
         <br/>
         <br>
         <div class="row" id="Services">

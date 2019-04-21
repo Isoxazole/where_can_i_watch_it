@@ -1,31 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <title>Where Can I Watch It?</title>
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <%= stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true %>
     <%= stylesheet_link_tag 'default' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    
+    <title>Where Can I Watch It?</title>
   </head>
   <body>
-    <div id="Login" >
-        <% if user_signed_in? %>
-            <%= link_to(current_user.email, edit_user_registration_path) %> 
-            <%= link_to('- Log Out', destroy_user_session_path, method: :delete) %>
-            <%= link_to 'Favorites list', favorites_path, method: :get %>
-            <%= link_to('Popular', popular_path) %>
-            <%= link_to('New Movies', recent_releases_path) %>
-        <% else %>
-            <%= link_to('Login / Sign up', new_user_session_path) %>
-            <%= link_to('Popular', popular_path) %>
-            <%= link_to('New Movies', recent_releases_path) %>
-        <% end %>    
-   </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://evening-peak-74429.herokuapp.com/"><h1>Where Can I Watch It?</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div>
-        <h1>Where Can I Watch It?</h1>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><h3>Home</h3><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recent_releases"><h3>New</h3></a>
+          </li>
+          <li class="nav-item">
+            <%= link_to('', popular_path) %><a class="nav-link" href="/popular"><h3>Popular</h3></a>
+          </li>
+          
+            <% if user_signed_in? %>
+                <li class="nav-item"><%= link_to '', favorites_path, method: :get %><a class="nav-link" href="/favorites"><h3>Favorites</h3></a></li>
+                <li id="user-email" class="nav-item"><h3><a class="nav-link" href="/"><%= link_to(current_user.email, edit_user_registration_path) %></a></h3></li>
+                <li id="log-out" class="nav-item"><h3><%= link_to('Log Out', destroy_user_session_path, method: :delete) %><a class="nav-link" href=''></a></h3></li>
+                
+            <% else %>
+                <li class="nav-item"><%= link_to('', new_user_session_path) %><a class="nav-link" href="/users/sign_in"><h3>Login/Signup</h3></a></li>
+            <% end %>
+        <li class="nav-item">
+            <form id="search" class="form-inline">
+                <%= form_tag movies_path, :id => "search bar", :method => :get do %>
+                        <%= text_field_tag :search, params[:search], :class => "form-control", :id => "extend" %>
+                        <%= submit_tag "Search", :id => "search_submit", :class => "btn" %>
+                <% end %>
+            </form>
+        </li>
+        </ul>
+      </div>
+    </nav>
     <div id="main">
       <% if flash[:notice] %>
         <div class="message" id="notice">
