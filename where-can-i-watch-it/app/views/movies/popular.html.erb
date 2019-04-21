@@ -34,12 +34,12 @@
             <br/>
             <br/>
             <div class="row">
-                
-            <div class="album text-muted offset-lg-1 offset-md-1 col-lg-10 col-md-10">
+            
+<div class="album text-muted offset-lg-1 offset-md-1 col-lg-10 col-md-10">
    <div class="container">
       <div class="row">
          <% @movies.first(10).each do |movie| %>
-         <div class="card">
+         <div class="card text-white bg-dark mb-3">
             <a href="<%= movie_path(movie) %>"><%= image_tag(movie.imgurl)%><a>
             <strong class="card-text"><%= movie.title %></strong>
             <p class="card-text"><%= movie.rating %></p>
@@ -48,8 +48,7 @@
          <% end %>
       </div>
    </div>
-</div>
-                
+</div>                
             </div>
         </div>
     </body>
