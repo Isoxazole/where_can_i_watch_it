@@ -50,7 +50,7 @@ end
 
 Then("the user should see the movie.") do
 	wait = Selenium::WebDriver::Wait.new(timeout: 10)
-  wait.until { @driver.find_element(:id,'movies').text.include? "Apostle"}
+  wait.until { @driver.find_element(:class,'card-text').text.include? "Apostle"}
   @driver.close
 
 end

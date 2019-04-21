@@ -71,6 +71,7 @@ group :test do
   gem 'selenium-webdriver', '~> 2.46.2'
   gem 'flog'
   gem 'code_metrics'
+  gem 'simplecov', require: false
 end
 
 #Bootstrap
