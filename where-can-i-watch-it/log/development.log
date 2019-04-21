@@ -54435,3 +54435,1575 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.erb within layouts/application (48.9ms)
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
 Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:22:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (230.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 301ms (Views: 284.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 22:22:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/users/sign_out" for 73.153.6.102 at 2019-04-21 22:22:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"A2kZwQrk6uZa3TZdPt2yfM3Tj2t2DLxPFO3ias1dPZdmwxDpw6f5Mwl3c6g22KXlEaCQtWMMhEjJrjNfViTkIg=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to https://6714ffb88f2846d9ac6f77f95fc504f7.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 19ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:22:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 82ms (Views: 79.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 73.153.6.102 at 2019-04-21 22:26:09 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 64ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 22:26:09 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:28:57 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (200.5ms)
+Completed 200 OK in 247ms (Views: 231.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 22:28:58 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/recent_releases" for 73.153.6.102 at 2019-04-21 22:29:06 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (release_date >= '2019-04-07')
+  Rendered movies/recent_releases.html.erb within layouts/application (58.6ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/popular" for 73.153.6.102 at 2019-04-21 22:29:07 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies"  ORDER BY favcounter DESC LIMIT 10[0m
+  Rendered movies/popular.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:08 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for 73.153.6.102 at 2019-04-21 22:29:13 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 73ms (Views: 67.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:29:15 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 22:58:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (231.0ms)
+Completed 200 OK in 276ms (Views: 260.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_in" for 73.153.6.102 at 2019-04-21 22:58:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 72ms (Views: 67.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 73.153.6.102 at 2019-04-21 22:58:58 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:05:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (209.0ms)
+Completed 200 OK in 257ms (Views: 241.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 23:05:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 73.153.6.102 at 2019-04-21 23:05:27 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (76.3ms)
+Completed 200 OK in 122ms (Views: 108.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:18:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (235.8ms)
+Completed 200 OK in 281ms (Views: 265.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 23:18:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 73.153.6.102 at 2019-04-21 23:18:28 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 64ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users/sign_in" for 73.153.6.102 at 2019-04-21 23:18:36 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nzsKHLhvXcgeJIwvf0JAwcTd9a/N4Ag+xRBluffDH2sHx9B7UIJmmeHhcLi4s9u/9Y168w0ojoiOFRtpOHo70g==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "test@test.com"]]
+Redirected to https://6714ffb88f2846d9ac6f77f95fc504f7.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 151ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:18:36 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (46.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:25 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (215.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 281ms (Views: 265.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 73.153.6.102 at 2019-04-21 23:26:26 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:30 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (65.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:31 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (57.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:31 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (39.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:32 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (45.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:32 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:32 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (45.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:33 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:33 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (46.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:34 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:34 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (46.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:34 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:40 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 80ms (Views: 56.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:46 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (41.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:46 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (46.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:46 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:46 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (45.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:46 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (4.4ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (46.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 67ms (Views: 61.4ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (46.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (42.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (41.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (48.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (45.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (41.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:47 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (44.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (41.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (44.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (41.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (61.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 84ms (Views: 81.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 62ms (Views: 59.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:48 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (70.4ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:49 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:50 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:51 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (55.5ms)
+Completed 200 OK in 88ms (Views: 85.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/favorites" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (39.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (37.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:52 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (37.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (37.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (37.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:53 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (44.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (44.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (44.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (43.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:54 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (40.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (41.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (44.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (38.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:55 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (45.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (39.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (40.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (39.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (45.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (38.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 73.153.6.102 at 2019-04-21 23:26:56 +0000
+Cannot render console from 73.153.6.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (45.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.4ms)

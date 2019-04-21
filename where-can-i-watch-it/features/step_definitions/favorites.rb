@@ -1,4 +1,5 @@
 require 'cucumber/rails'
+require 'rubygems'
 
 module FavoritesStepHelper
 
@@ -27,12 +28,12 @@ Given("the user is on the movies page") do
     #page.all(".articles .article[id='foo']")
     #find('div.strong', text: 'Apostle')
     #page.find('div', text: 'Apostle', visible: :false)
-   #within('strong.card-text') do
+    #within('strong.card-text') do
     #    page.body.should have_content ('Apostle')
     #end
     #page.find('strong', text: 'Apostle', exact: true)
     #find("div", match: :first)
-   # page.find('#div')['card-text', card-text == "Apostle"]
+    #page.find('#div')['card-text', card-text == "Apostle"]
     #page.find('strong.card-text', text: 'Apostle')
     #find('div.card text-white bg-dark mb-3').click
     

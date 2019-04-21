@@ -1,4 +1,7 @@
-=begin
+require 'cucumber/rails'
+require 'rubygems'
+require 'devise'
+
 module LoginStepHelper
     
 	def create_visitor
@@ -25,8 +28,7 @@ module LoginStepHelper
 	end
 	def sign_up
 	  delete_user
-	  visit '/users/sign_up'
-	  fill_in "user_name", :with => @visitor[:name]
+	  #fill_in "user_name", :with => @visitor[:name]
 	  fill_in "user_email", :with => @visitor[:email]
 	  fill_in "user_password", :with => @visitor[:password]
 	  fill_in "user_password_confirmation", :with => @visitor[:password_confirmation]
@@ -37,46 +39,79 @@ module LoginStepHelper
 	  visit '/users/sign_in'
 	  fill_in "user_email", :with => @visitor[:email]
 	  fill_in "user_password", :with => @visitor[:password]
-	  click_button "Sign in"
+	  click_button "Log in"
 	end
 end
 
 World LoginStepHelper
+
 ##
-Given("the user enters an email for new account") do
-    create_visitor
-end 
-When("the email is not already taken") do
-    sign_up
+
+# the user wants to navigate to the login/ sign-up page
+Given ("the user is on the root page") do
+	visit "/"
+	page.should have_content "Login/Signup"
 end
-Then("the account is created") do
-    page.should have_content "Welcome! You have signed up successfully."
+When ("the user clicks the 'login/ sign-up' button") do
+	click_link('Login/Signup', :href => "/users/sign_in")
 end
-##
-Given("the user enters a username for new account") do
-    create_visitor
+Then ("the user is directed to the login page") do
+	page.should have_content "Log in"
 end
-When("the username is already taken") do
-    sign_up
+    
+# the user wants to log in
+Given ("the user is located on the login/ sign-up page") do
+	create_visitor
+	visit '/users/sign_in'
+	page.should have_content "Log in"
 end
-Then("the account is not created") do
-    page.should have_content "Email is invalid or already taken."
-end    
-##
-Given("the user enters password ") do
-end    
-When("the user enters correct password") do
+When ("the user completes log in form and clicks the login button") do
+	sign_in
 end
-Then("the user is able to login") do
-    page.should have_content "Signed in successfully."
-end
-##   
-Given("the user enters password") do
-end
-When("the password is incorrect") do
-end
-Then("the user is not able to login") do
-      page.should have_content "Invalid email or password."
+Then ("the user is logged in and redirected back to the main page") do
+	page.has_title? "index.html.erb"
 end
 
-=end
+# the user wants to sign up
+Given ("the user is located on the login/ signup page") do
+	create_visitor
+	visit "/users/sign_in"
+end
+When ("the user navigates to the sign-in page") do
+	click_link('Sign up', :href => "/users/sign_up")
+	page.has_title? "/users/sign_up"
+end 
+Then ("the user completes the form and clicks the sign-up button") do
+	sign_up
+end
+And ("the user is signed up, logged in, and redirected back to the main page") do
+	page.has_title? "index.html.erb"
+end
+    
+# the user wants to see if they are logged in
+Given ("the user has logged in") do
+	visit "/"
+	create_visitor
+	sign_in
+end
+When ("the user is redirected to the home page") do
+	page.has_title? "index.html.erb"
+end
+Then ("the user's email is displayed at the top page") do
+	click_link(@visitor[:email], :href => "/users/edit")
+	#find_button(@visitor[:email])
+	
+end
+And ("the 'log out' button appears") do
+	find_button('Log out')
+end
+    
+# the user wants to see if they are logged in
+Given ("the user has not logged in") do
+end
+When ("the user is on the main page") do
+end
+Then ("the user's email is not displayed at the top page") do
+end
+And ("the 'log out' button does not appear") do
+end 
