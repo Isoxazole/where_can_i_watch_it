@@ -50,47 +50,21 @@
                     <% end %>
                 </div>
             
-                <table id="movies" class="table table-dark offset-lg-1 offset-md-1 col-lg-10 col-md-10">
-                  <thead>
-                    <tr>
-                      <th id="Poster">Poster</th>
-                      <th class="<%= ("hilite" if @sort_by == "title") %>">
-                        <%= link_to 'Movie Title', movies_path(:sort_by => 'title', :ratings=>@ratings), :id=> "title_header"  %>
-                      </th>
-    
-                      <% # Highlight the header     #Create the link      #set sort to 'title' %>
-                      <th>Provider</th>
-                      <th class="<%= ("hilite" if @sort_by == "release_date") %>">
-                        <%= link_to 'Release Date', movies_path(:sort_by => 'release_date', :ratings=>@ratings), :id => "release_date_header"%>
-                      </th>
-    
-                      <% # Highlight the header     #Create the link      #set sort to 'release_date' %>
-                      <th id="More">More Info</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <% @movies.each do |movie| %>
-                      <tr>
-                        <td>
-                           <%= image_tag (movie.imgurl), :class => "Poster"%>
-                        </td>
-                        <td>
-                          <%= movie.title %>
-                        </td>
-                        <td>
-                          <%= movie.rating %>
-                        </td>
-                        <td>
-                          <%= movie.release_date %>
-                        </td>
-                        <td>
-                          <%= link_to "More about #{movie.title}", movie_path(movie) %>
-                        </td>
-                      </tr>
-                    <% end %>
-                  </tbody>
-                </table>
-            </div>
-        </div>
+                
+        
+<div class="album text-muted offset-lg-1 offset-md-1 col-lg-10 col-md-10">
+   <div class="container">
+      <div class="row">
+         <% @movies.each do |movie| %>
+         <div class="card">
+            <a href="<%= movie_path(movie) %>"><%= image_tag(movie.imgurl)%><a>
+            <strong class="card-text"><%= movie.title %></strong>
+            <p class="card-text"><%= movie.rating %></p>
+            <p class="card-text"><%= movie.release_date %></p>
+         </div>
+         <% end %>
+      </div>
+   </div>
+</div>
     </body>
 </html>
