@@ -11,17 +11,17 @@ module LoginStepHelper
 	def find_user
 	  @user ||= User.where(:email => @visitor[:email]).first
 	end
-	def create_unconfirmed_user
-	  create_visitor
-	  delete_user
-	  sign_up
-	  visit '/users/sign_out'
-	end
-	def create_user
-	  create_visitor
-	  delete_user
-	  @user = FactoryGirl.create(:user, @visitor)
-	end
+	#def create_unconfirmed_user
+	  #create_visitor
+	 #delete_user
+	  #sign_up
+	  #visit '/users/sign_out'
+	#end
+	#def create_user
+	  #create_visitor
+	  #delete_user
+	  #@user = FactoryGirl.create(:user, @visitor)
+	#end
 	def delete_user
 	  @user ||= User.where(:email => @visitor[:email]).first
 	  @user.destroy unless @user.nil?
@@ -98,21 +98,22 @@ When ("the user is redirected to the home page") do
 	page.has_title? "index.html.erb"
 end
 Then ("the user's email is displayed at the top page") do
-	#click_link(@visitor[:email], :href => "/users/edit", :wait => 10)
-	#find_button(@visitor[:email])
-  #page.find(:text => @visitor[:email], :wait => 5)
-  Capybara.current_session.has_link?(@visitor[:email], href: "/users/edit")
+	Capybara.current_session.has_link?(@visitor[:email], href: "/users/edit")
 end
 And ("the 'log out' button appears") do
-  Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
+	Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
 end
     
 # the user wants to see if they are logged in
 Given ("the user has not logged in") do
+	create_visitor
 end
 When ("the user is on the main page") do
+	visit "/"
 end
 Then ("the user's email is not displayed at the top page") do
+	page.should_not have_content (@visitor[:email])
 end
 And ("the 'log out' button does not appear") do
+	page.should_not have_content "Log out"
 end 
