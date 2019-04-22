@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
 
     @comment.save
 
-    redirect_to movie_path(@comment.movie)
+    redirect_to movie_path(@comment.movie_id)
   end
 
   def comment_params
