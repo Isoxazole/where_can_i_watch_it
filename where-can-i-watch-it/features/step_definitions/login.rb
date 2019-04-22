@@ -98,12 +98,13 @@ When ("the user is redirected to the home page") do
 	page.has_title? "index.html.erb"
 end
 Then ("the user's email is displayed at the top page") do
-	click_link(@visitor[:email], :href => "/users/edit")
+	#click_link(@visitor[:email], :href => "/users/edit", :wait => 10)
 	#find_button(@visitor[:email])
-	
+  #page.find(:text => @visitor[:email], :wait => 5)
+  Capybara.current_session.has_link?(@visitor[:email], href: "/users/edit")
 end
 And ("the 'log out' button appears") do
-	find_button('Log out')
+  Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
 end
     
 # the user wants to see if they are logged in
