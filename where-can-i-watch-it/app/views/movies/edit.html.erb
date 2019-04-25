@@ -12,21 +12,24 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Edit Existing Movie</h1>
-        <%= form_tag movie_path(@movie), :method => :put do %>
-          <%= label :movie, :title, 'Title' %>
-          <br>
-          <%= text_field :movie, 'title' %>
-          <br>
-          <%= label :movie, :rating, 'Rating' %>
-          <br>
-          <%= select :movie, :rating, ['G','PG','PG-13','R','NC-17'] %>
-          <br>
-          <%= label :movie, :release_date, 'Released On' %>
-          <br>
-          <%= date_select :movie, :release_date %>
-          <br>
-          <%= submit_tag 'Update Movie Info', :class => 'actions' %>
-        <% end %>
+        <center>
+            <h1>Edit Existing Movie</h1>
+            <%= form_tag movie_path(@movie), :method => :put do %>
+              <%= label :movie, :title, 'Title' %>
+              <br>
+              <%= text_field :movie, 'title', :class => 'field' %>
+              <br>
+              <%= label :movie, :rating, 'Rating' %>
+              <br>
+              <%= select :movie, :rating, ['G','PG','PG-13','R','NC-17'], :class => 'field' %>
+              <br>
+              <%= label :movie, :release_date, 'Released On' %>
+              <br>
+              <%= date_select :movie, :release_date, :class => 'field' %>
+              <br>
+              <br>
+              <%= submit_tag 'Update Movie Info', :class => 'actions' %>
+            <% end %>
+        </center>
     </body>
 </html>
