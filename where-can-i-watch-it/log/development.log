@@ -56007,3 +56007,261 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.erb within layouts/application (45.2ms)
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
 Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_movie_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_favorites_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_favorites_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_favorites_on_favorited_type_and_favorited_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_favorites_on_favorited_type_and_favorited_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Apostle"], ["rating", "Netflix"], ["release_date", "2018-10-12 00:00:00.000000"], ["imgurl", "apostle_poster.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.957615"], ["updated_at", "2019-04-25 05:02:08.957615"]]
+  [1m[35m (3.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Like Father"], ["rating", "Netflix"], ["release_date", "2018-08-03 00:00:00.000000"], ["imgurl", "like_father.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.963177"], ["updated_at", "2019-04-25 05:02:08.963177"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Outlaw King"], ["rating", "Netflix"], ["release_date", "2018-11-09 00:00:00.000000"], ["imgurl", "outlaw_king_poster.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.967513"], ["updated_at", "2019-04-25 05:02:08.967513"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "A Land Imagined"], ["rating", "Netflix"], ["release_date", "2019-04-12 00:00:00.000000"], ["imgurl", "imagined_land.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.971635"], ["updated_at", "2019-04-25 05:02:08.971635"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "The Perfect Date"], ["rating", "Netflix"], ["release_date", "2019-04-12 00:00:00.000000"], ["imgurl", "perfect_date.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.975646"], ["updated_at", "2019-04-25 05:02:08.975646"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "The Silence"], ["rating", "Netflix"], ["release_date", "2019-04-10 00:00:00.000000"], ["imgurl", "the_silence.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.979749"], ["updated_at", "2019-04-25 05:02:08.979749"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Roma"], ["rating", "Netflix"], ["release_date", "2018-11-21 00:00:00.000000"], ["imgurl", "roma.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.983975"], ["updated_at", "2019-04-25 05:02:08.983975"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Mother!"], ["rating", "Hulu"], ["release_date", "2017-09-15 00:00:00.000000"], ["imgurl", "mother.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.988013"], ["updated_at", "2019-04-25 05:02:08.988013"]]
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Silence"], ["rating", "Hulu"], ["release_date", "2017-01-13 00:00:00.000000"], ["imgurl", "silence.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.992796"], ["updated_at", "2019-04-25 05:02:08.992796"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Shoplifters"], ["rating", "Hulu"], ["release_date", "2018-11-23 00:00:00.000000"], ["imgurl", "shoplifters.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:08.996951"], ["updated_at", "2019-04-25 05:02:08.996951"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Assassination Nation"], ["rating", "Hulu"], ["release_date", "2018-09-21 00:00:00.000000"], ["imgurl", "assassination_nation.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.001125"], ["updated_at", "2019-04-25 05:02:09.001125"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Fyre Fraud"], ["rating", "Hulu"], ["release_date", "2019-06-14 00:00:00.000000"], ["imgurl", "fyre_fraud.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.005137"], ["updated_at", "2019-04-25 05:02:09.005137"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "A Quiet Place"], ["rating", "PrimeVideo"], ["release_date", "2018-04-06 00:00:00.000000"], ["imgurl", "quiet_place.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.009192"], ["updated_at", "2019-04-25 05:02:09.009192"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "It Comes At Night"], ["rating", "PrimeVideo"], ["release_date", "2017-06-09 00:00:00.000000"], ["imgurl", "it_comes_at_night.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.013338"], ["updated_at", "2019-04-25 05:02:09.013338"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "MHA: Two Heroes"], ["rating", "PrimeVideo"], ["release_date", "2018-09-25 00:00:00.000000"], ["imgurl", "two_heroes.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.017324"], ["updated_at", "2019-04-25 05:02:09.017324"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "City of Ghosts"], ["rating", "PrimeVideo"], ["release_date", "2017-07-21 00:00:00.000000"], ["imgurl", "city_of_ghosts.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.021473"], ["updated_at", "2019-04-25 05:02:09.021473"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Arrival"], ["rating", "PrimeVideo"], ["release_date", "2016-11-12 00:00:00.000000"], ["imgurl", "arrival.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.026327"], ["updated_at", "2019-04-25 05:02:09.026327"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Zama"], ["rating", "PrimeVideo"], ["release_date", "2017-09-28 00:00:00.000000"], ["imgurl", "zama.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.030459"], ["updated_at", "2019-04-25 05:02:09.030459"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "The Thinning"], ["rating", "Youtube"], ["release_date", "2016-10-12 00:00:00.000000"], ["imgurl", "thinning.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.034554"], ["updated_at", "2019-04-25 05:02:09.034554"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Holmes and Watson"], ["rating", "Youtube"], ["release_date", "2018-12-24 00:00:00.000000"], ["imgurl", "holmes.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.038623"], ["updated_at", "2019-04-25 05:02:09.038623"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Glass"], ["rating", "Youtube"], ["release_date", "2019-01-18 00:00:00.000000"], ["imgurl", "glass.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.042740"], ["updated_at", "2019-04-25 05:02:09.042740"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Escape Room"], ["rating", "Youtube"], ["release_date", "2019-01-04 00:00:00.000000"], ["imgurl", "escape_room.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.046875"], ["updated_at", "2019-04-25 05:02:09.046875"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Into The Spiderverse"], ["rating", "Youtube"], ["release_date", "2018-12-14 00:00:00.000000"], ["imgurl", "spiderverse.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.050899"], ["updated_at", "2019-04-25 05:02:09.050899"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "imgurl", "favcounter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Vice"], ["rating", "Youtube"], ["release_date", "2018-12-25 00:00:00.000000"], ["imgurl", "vice.jpg"], ["favcounter", 0], ["created_at", "2019-04-25 05:02:09.054859"], ["updated_at", "2019-04-25 05:02:09.054859"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 128.198.122.6 at 2019-04-25 05:02:19 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (1612.0ms)
+Completed 200 OK in 1673ms (Views: 1657.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-79ab2a3628ab059b0db9a912aa722c026268940e22d4357879df842c1cf2935c.css?body=1" for 128.198.122.6 at 2019-04-25 05:02:21 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:02:22 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.122.6 at 2019-04-25 05:02:47 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:02:47 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies/1" for 128.198.122.6 at 2019-04-25 05:02:51 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (5.4ms)
+  Rendered movies/_form.html.erb (5.7ms)
+  Rendered movies/show.html.erb within layouts/application (57.7ms)
+Completed 200 OK in 90ms (Views: 78.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/movies/1" for 128.198.122.6 at 2019-04-25 05:03:23 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (0.6ms)
+  Rendered movies/_form.html.erb (0.7ms)
+  Rendered movies/show.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:03:24 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies/1/edit" for 128.198.122.6 at 2019-04-25 05:03:30 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/1" for 128.198.122.6 at 2019-04-25 05:03:35 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (0.6ms)
+  Rendered movies/_form.html.erb (0.8ms)
+  Rendered movies/show.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/1" for 128.198.122.6 at 2019-04-25 05:03:35 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (0.6ms)
+  Rendered movies/_form.html.erb (0.7ms)
+  Rendered movies/show.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for 128.198.122.6 at 2019-04-25 05:04:04 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (0.5ms)
+  Rendered movies/_form.html.erb (1.2ms)
+  Rendered movies/show.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/1/edit" for 128.198.122.6 at 2019-04-25 05:04:14 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/1/edit" for 128.198.122.6 at 2019-04-25 05:04:42 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.1ms)

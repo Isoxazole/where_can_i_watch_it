@@ -1,11 +1,32 @@
 <% # edit.html.haml using partial %>
-<h1>Edit Existing Movie</h1>
-<%= form_tag movie_path(@movie), :method => :put do %>
-  <%= label :movie, :title, 'Title' %>
-  <%= text_field :movie, 'title' %>
-  <%= label :movie, :rating, 'Rating' %>
-  <%= select :movie, :rating, ['G','PG','PG-13','R','NC-17'] %>
-  <%= label :movie, :release_date, 'Released On' %>
-  <%= date_select :movie, :release_date %>
-  <%= submit_tag 'Update Movie Info' %>
-<% end %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <%= stylesheet_link_tag 'default' %>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+        <%= csrf_meta_tags %>
+        
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Edit Existing Movie</h1>
+        <%= form_tag movie_path(@movie), :method => :put do %>
+          <%= label :movie, :title, 'Title' %>
+          <br>
+          <%= text_field :movie, 'title' %>
+          <br>
+          <%= label :movie, :rating, 'Rating' %>
+          <br>
+          <%= select :movie, :rating, ['G','PG','PG-13','R','NC-17'] %>
+          <br>
+          <%= label :movie, :release_date, 'Released On' %>
+          <br>
+          <%= date_select :movie, :release_date %>
+          <br>
+          <%= submit_tag 'Update Movie Info', :class => 'actions' %>
+        <% end %>
+    </body>
+</html>
