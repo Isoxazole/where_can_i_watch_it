@@ -56516,3 +56516,34 @@ Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:17:22 +0000
 Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.122.6 at 2019-04-25 05:18:15 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (378.5ms)
+Completed 200 OK in 442ms (Views: 425.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:18:16 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.198.122.6 at 2019-04-25 05:18:36 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 1170ms (Views: 1168.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-b2d8130686989603ed8c5802bcd0cfec9c3305f5ae3e4f3022587f0f076df601.css?body=1" for 128.198.122.6 at 2019-04-25 05:18:38 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.122.6 at 2019-04-25 05:18:38 +0000
+Cannot render console from 128.198.122.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
