@@ -69,7 +69,7 @@ When ("the user completes log in form and clicks the login button") do
 	sign_in
 end
 Then ("the user is logged in and redirected back to the main page") do
-	page.has_title? "index.html.erb"
+	page.should have_xpath('/')
 end
 
 # the user wants to sign up
@@ -79,29 +79,32 @@ Given ("the user is located on the login/ signup page") do
 end
 When ("the user navigates to the sign-in page") do
 	click_link('Sign up', :href => "/users/sign_up")
-	page.has_title? "/users/sign_up"
+	page.should have_content "Sign up"
 end 
 Then ("the user completes the form and clicks the sign-up button") do
 	sign_up
 end
 And ("the user is signed up, logged in, and redirected back to the main page") do
-	page.has_title? "index.html.erb"
+	page.should have_content "Supported Services:"
 end
     
 # the user wants to see if they are logged in
 Given ("the user has logged in") do
-	visit "/"
+	visit '/users/sign_up'
 	create_visitor
-	sign_in
+	sign_up
+	#sign_in
 end
 When ("the user is redirected to the home page") do
-	page.has_title? "index.html.erb"
+	visit "/"
+	page.should have_content "Supported Services:"
 end
 Then ("the user's email is displayed at the top page") do
-	Capybara.current_session.has_link?(@visitor[:email], href: "/users/edit")
+	expect(page).to have_content(@visitor[:email])
 end
 And ("the 'log out' button appears") do
-	Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
+	expect(page).to have_content("Log Out")
+	#Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
 end
     
 # the user wants to see if they are logged in

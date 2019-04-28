@@ -1,4 +1,5 @@
 require 'cucumber/rails'
+require 'capybara'
 require 'rubygems'
 
 module FavoritesStepHelper
@@ -14,7 +15,19 @@ module FavoritesStepHelper
 	  fill_in "user_password", :with => @visitor[:password]
 	  click_button "Log in"
 	end
-	session = Capybara.current_session
+	def delete_user
+	  @user ||= User.where(:email => @visitor[:email]).first
+	  @user.destroy unless @user.nil?
+	end
+	def sign_up
+	  delete_user
+	  #fill_in "user_name", :with => @visitor[:name]
+	  fill_in "user_email", :with => @visitor[:email]
+	  fill_in "user_password", :with => @visitor[:password]
+	  fill_in "user_password_confirmation", :with => @visitor[:password_confirmation]
+	  click_button "Sign up"
+	  find_user
+	end
 end
 
 World FavoritesStepHelper
@@ -22,30 +35,29 @@ World FavoritesStepHelper
 #Scenario: the user wants to see their favorites list
     Given ("the user is located on the main movies page") do
         visit "/"
-        page.has_title? "index.html.erb"
+        page.should have_xpath('/')
     end
     When ("the user is logged in") do
         create_visitor
-        sign_in
-        page.has_title? "index.html.erb"
-        Capybara.current_session.has_link?(@visitor[:email], href: "/users/edit")
+        visit "/users/sign_up"
+        sign_up
+        page.should have_xpath('/')
     end
     Then("the user should see the 'favorites' tab being displayed") do
-        Capybara.current_session.has_link?("Favorites", href: "/favorites")
+        expect(page).to have_content(@visitor[:email])
     end
     And ("the user navigates to their favorites list") do
-        Capybara.current_session.click_link("Favorites", href: "/favorites")
-        page.has_title? "/favorites"
+        click_link('Favorites', :href => "/favorites")
     end
     
 #Scenario: the user wants to see their favorites list but are not logged in  
     Given ("the user is on the main movies page") do
         visit "/"
-        page.has_title? "index.html.erb"
+        page.should have_xpath('/')
     end
     When ("the user is not logged in") do
         create_visitor
-        page.should_not have_content (@visitor[:email])
+        page.should_not have_content(@visitor[:email])
     end
     Then ("the user should not see the 'favorites' tab displayed") do
         page.should_not have_content "Favorites"
@@ -55,26 +67,16 @@ World FavoritesStepHelper
     Given ("the user is on the movies page and is logged in") do
         create_visitor
         sign_in
-        page.has_title? "index.html.erb"
     end
     When ("the user navigates to a movie's page") do
-        #Capybara.current_session.visit("/movies/1")
-        #Capybara.current_session.click_link(alt: "Apostle poster")
-        #click_button("Apostle poster")
-        #find(:xpath, "//div/a[@href='/movies/1']").click
-        #find(:xpath, "img[alt='Apostle poster']").click
-        #Capybara.current_session.click_link('', href: nil)
-        #find(:xpath, "//a/img[@alt='Apostle poster']/..").click
-        #find(:xpath, "//a/img[@alt='Apostle poster']").click 
-        #page.find("img[alt='Apostle poster']").click
-        page.has_title? "/movies/1"
+        
     end
     Then ("the user presses the 'add to favorites button'") do
-        page.has_link?("Add to favorites")
+        page.shoudl have_content("Add to favorites")
         click_link("Add to favorites")
     end
     And ("the movie is added to their favorites list") do
-        page.has_link?("Remove from favorites")
+        page.should have_content("Remove from favorites")
     end
     
 #Scenario: the user removes a movie to their favorites list
@@ -82,8 +84,7 @@ World FavoritesStepHelper
         create_visitor
         sign_in
         page.has_title? "index.html.erb"
-        rake db:migrate
-        rake db:seed
+        
         visit "/movies/1"
     end
     When ("the user presses the 'remove from favorites button'") do
