@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'selenium-webdriver'
+require 'cucumber/rails'
 
 module LockoutStepHelper
 	def lockout
@@ -37,15 +38,17 @@ module SearchStepHelper
 end
 Given("the movie can be found in the database") do
 	 Movie.where(:title => 'Apostle').any?
-   @driver = Selenium::WebDriver.for :firefox
-   @driver.get "http://localhost:3000/"
+
+   # @driver = Selenium::WebDriver.for :firefox
+   # @driver.get "http://localhost:3000/"
 end
 
 When("the user searches for the movie") do
-
-  element = @driver.find_element(:name, "search")
-  element.send_keys "Apostle"
-  element.submit
+  page.find("form", :id => "search").fill_in "extend", :with => "Apostle"
+  click_button "search_submit"
+  # element = @driver.find_element(:name, "search")
+  # element.send_keys "Apostle"
+  # element.submit
 end
 
 Then("the user should see the movie.") do

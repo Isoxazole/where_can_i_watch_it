@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/features/step_definitions/favorites.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/features/step_definitions/favorites.rb": [
         1,
         1,
         1,
@@ -129,7 +129,7 @@
         1,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/features/step_definitions/login.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/features/step_definitions/login.rb": [
         1,
         1,
         1,
@@ -253,16 +253,8 @@
         1,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/features/step_definitions/stepdefs.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/features/step_definitions/stepdefs.rb": [
         1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
         1,
         1,
         null,
@@ -270,12 +262,6 @@
         1,
         null,
         null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
         1,
         null,
         1,
@@ -285,6 +271,16 @@
         1,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
         null,
         1,
         1,
@@ -292,16 +288,23 @@
         null,
         null,
         1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         1,
         0,
         null,
         null,
-        1,
         null,
-        0,
-        0,
-        0,
         null,
         null,
         1,
@@ -332,7 +335,7 @@
         0,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/controllers/movies_controller.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/controllers/movies_controller.rb": [
         1,
         null,
         1,
@@ -480,25 +483,25 @@
         null,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/controllers/application_controller.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/helpers/application_helper.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/helpers/application_helper.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/helpers/comments_helper.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/helpers/movies_helper.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/helpers/movies_helper.rb": [
         1,
         null,
         1,
@@ -506,7 +509,7 @@
         null,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/models/movie.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/models/movie.rb": [
         null,
         1,
         1,
@@ -529,7 +532,7 @@
         null,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/controllers/favorite_movies_controller.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/controllers/favorite_movies_controller.rb": [
         1,
         null,
         null,
@@ -563,13 +566,13 @@
         null,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/models/favorite.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/models/favorite.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/db/seeds.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/db/seeds.rb": [
         null,
         null,
         null,
@@ -609,7 +612,7 @@
         24,
         null
       ],
-      "/home/ec2-user/environment/group9_spring2019/where-can-i-watch-it/app/models/comment.rb": [
+      "/home/linux/Documents/groupProject/where-can-i-watch-it/app/models/comment.rb": [
         1,
         1,
         1,
@@ -617,6 +620,6 @@
         null
       ]
     },
-    "timestamp": 1556510047
+    "timestamp": 1556511690
   }
 }
