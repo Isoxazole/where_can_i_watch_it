@@ -67,9 +67,10 @@ Given ("the user is located on the login/ sign-up page") do
 end
 When ("the user completes log in form and clicks the login button") do
 	sign_in
+	visit "/"
 end
 Then ("the user is logged in and redirected back to the main page") do
-	page.should have_xpath('/')
+	page.should_not have_content "Log in"
 end
 
 # the user wants to sign up
@@ -104,7 +105,6 @@ Then ("the user's email is displayed at the top page") do
 end
 And ("the 'log out' button appears") do
 	expect(page).to have_content("Log Out")
-	#Capybara.current_session.has_link?("Log Out", href: "/users/sign_out")
 end
     
 # the user wants to see if they are logged in

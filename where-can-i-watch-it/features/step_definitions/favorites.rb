@@ -28,6 +28,9 @@ module FavoritesStepHelper
 	  click_button "Sign up"
 	  find_user
 	end
+	def load_database
+	    load File.join(Rails.root, 'db', 'seeds.rb')
+	end    
 end
 
 World FavoritesStepHelper
@@ -65,19 +68,21 @@ World FavoritesStepHelper
     Then ("the user should not see the 'favorites' tab displayed") do
         page.should_not have_content "Favorites"
     end
-    
+
+
 #Scenario: the user adds a movie to their favorites list
     Given ("the user is on the movies page and is logged in") do 
+        load_database
         create_visitor
         visit "/users/sign_up"
         sign_up
         visit "/"
         page.should have_content "Supported Services:"
     end
-    When ("the user navigates to a movie's page") do 
-        #page.should have_content "Apostle"
-        #find(:xpath, "//a/img[@alt='Apostle']/..").click
-        #save_and_open_page
+    When ("the user navigates to a movie's page") do
+        page.should have_content "Apostle"
+        click_link(:href => "/movies/1")
+        page.should have_content "Details about Apostle"
     end
     Then ("the user presses the 'add to favorites button'") do
         page.should have_content("Add to favorites")
@@ -93,12 +98,13 @@ World FavoritesStepHelper
         visit "/users/sign_up"
         sign_up
         visit "/"
-        #visit movie page
+        click_link(:href => "/movies/1")
+        page.should have_content "Details about Apostle"
     end
     When ("the user presses the 'remove from favorites button'") do
-        #page.has_link?("Add to favorites")
-        #click_link("Add to favorites")
-        page.has_link?("Remove from favorites")
+        page.should have_content("Add to favorites")
+        click_link("Add to favorites")
+        page.should have_content("Remove from favorites")
         click_link("Remove from favorites")
     end
     Then ("the movie is removed from their favorites list") do
@@ -112,7 +118,8 @@ World FavoritesStepHelper
          page.should_not have_content (@visitor[:email])
     end
     When ("the user searches for the 'add to favorites button'") do
-        #path to movie
+        click_link(:href => "/movies/1")
+        page.should have_content "Details about Apostle"
     end
     Then ("the 'add to favorites button' should not be visable") do
         page.should_not have_content("Add to favorites")
