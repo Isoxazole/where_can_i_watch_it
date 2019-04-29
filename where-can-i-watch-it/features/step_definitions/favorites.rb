@@ -41,7 +41,7 @@ World FavoritesStepHelper
         create_visitor
         visit "/users/sign_up"
         sign_up
-        page.should have_xpath('/')
+        page.should have_content "Supported Services:"
     end
     Then("the user should see the 'favorites' tab being displayed") do
         expect(page).to have_content(@visitor[:email])
@@ -53,10 +53,13 @@ World FavoritesStepHelper
 #Scenario: the user wants to see their favorites list but are not logged in  
     Given ("the user is on the main movies page") do
         visit "/"
-        page.should have_xpath('/')
     end
     When ("the user is not logged in") do
         create_visitor
+        visit "/users/sign_up"
+        sign_up
+        visit "/"
+        click_link('Log Out', :href => "/users/sign_out")
         page.should_not have_content(@visitor[:email])
     end
     Then ("the user should not see the 'favorites' tab displayed") do
@@ -64,15 +67,20 @@ World FavoritesStepHelper
     end
     
 #Scenario: the user adds a movie to their favorites list
-    Given ("the user is on the movies page and is logged in") do
+    Given ("the user is on the movies page and is logged in") do 
         create_visitor
-        sign_in
+        visit "/users/sign_up"
+        sign_up
+        visit "/"
+        page.should have_content "Supported Services:"
     end
-    When ("the user navigates to a movie's page") do
-        
+    When ("the user navigates to a movie's page") do 
+        #page.should have_content "Apostle"
+        #find(:xpath, "//a/img[@alt='Apostle']/..").click
+        #save_and_open_page
     end
     Then ("the user presses the 'add to favorites button'") do
-        page.shoudl have_content("Add to favorites")
+        page.should have_content("Add to favorites")
         click_link("Add to favorites")
     end
     And ("the movie is added to their favorites list") do
@@ -82,10 +90,10 @@ World FavoritesStepHelper
 #Scenario: the user removes a movie to their favorites list
     Given ("the user is on a movies page and is logged in") do
         create_visitor
-        sign_in
-        page.has_title? "index.html.erb"
-        
-        visit "/movies/1"
+        visit "/users/sign_up"
+        sign_up
+        visit "/"
+        #visit movie page
     end
     When ("the user presses the 'remove from favorites button'") do
         #page.has_link?("Add to favorites")
@@ -99,11 +107,13 @@ World FavoritesStepHelper
 
 #Scenario: the user wants to add a movie to their favorites list, but is not logged in
     Given ("the user is on a movies page and is not logged in") do
-        
+        visit "/"
+         create_visitor
+         page.should_not have_content (@visitor[:email])
     end
     When ("the user searches for the 'add to favorites button'") do
-        
+        #path to movie
     end
     Then ("the 'add to favorites button' should not be visable") do
-        
+        page.should_not have_content("Add to favorites")
     end

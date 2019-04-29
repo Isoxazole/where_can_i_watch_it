@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="/assets/application-3c0ddb33aa9c0f64889fc2216ccd8044072a5357b5c41760517b0f61bee5b204.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="screen" href="/assets/default-c3039dacb139edbc9940fec10ac9d6a38fc947f506767f45490968a5c1615625.css" />
+    <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://evening-peak-74429.herokuapp.com/"><h1>Where Can I Watch It?</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><h3>Home</h3><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recent_releases"><h3>New</h3></a>
+          </li>
+          <li class="nav-item">
+            <a href="/popular"></a><a class="nav-link" href="/popular"><h3>Popular</h3></a>
+          </li>
+          
+                <li class="nav-item"><a data-method="get" href="/favorites"></a><a class="nav-link" href="/favorites"><h3>Favorites</h3></a></li>
+                <li id="user-email" class="nav-item"><h3><a class="nav-link" href="/"><a href="/users/edit">test@test.com</a></a></h3></li>
+                <li id="log-out" class="nav-item"><h3><a rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a><a class="nav-link" href=''></a></h3></li>
+                
+        <li class="nav-item">
+            <form id="search" class="form-inline">
+                <form id="search bar" action="/movies" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                        <input type="text" name="search" id="extend" class="form-control" />
+                        <input type="submit" name="commit" value="Search" id="search_submit" class="btn" />
+</form>            </form>
+        </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" href="/assets/default-c3039dacb139edbc9940fec10ac9d6a38fc947f506767f45490968a5c1615625.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+        
+        
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="main-container" class="container-fluid">
+            <br/>
+            <br>
+            <div class="row" id="Services">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-lg-1 offset-md-1">
+                    <h1>Supported Services:</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/White_Prime_Video_Logo-8308c22166551f504c60d6443a8ce13e672f1c890fe731214924e9d1e22a3c20.png" alt="White prime video logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/Hulu_Logo-3807fed8d2afa5c45ae3774651f249b30fcc9da29f46e0a6a8acd71bf99a193f.png" alt="Hulu logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/Netflix_Logo-64f2c24826993510fc2daf839e52580e68a6ff8f36bd8b2e85d78db192a1bcc1.png" alt="Netflix logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/White_Youtube_Logo-0074a8347856ba5389ce4c57759535778f17b4a1bd00e20999092ed44fdcd530.png" alt="White youtube logo" />
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class = "filters col-lg-1 col-md-1">
+                    <form id="ratings_form" action="/movies" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                      <h1>Include:</h1>
+                      <hr>
+                      <br>
+                      <input type="submit" name="commit" value="Refresh" id="ratings_submit" />
+                      </br>
+                      <button type="button" class="btn"><input type="submit" name="commit" value="Clear" id="clear_submit" /></button>
+</form>                </div>
+            
+                
+        
+<div class="album text-muted offset-lg-1 offset-md-1 col-lg-10 col-md-10">
+   <div class="container">
+      <div class="row">
+      </div>
+   </div>
+</div>
+    </body>
+</html>
+    </div>
+  </body>
+</html>
