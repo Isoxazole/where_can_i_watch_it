@@ -5,6 +5,10 @@ class MoviesController < ApplicationController
   end
 
   def show
+     if params[:search]
+        redirect_to movies_path(:search => params[:search])
+    end
+  
     id = params[:id] # retrieve movie ID from URI route
     @movie = Movie.find(id) # look up movie by unique ID
     @comment = Comment.new
@@ -16,8 +20,6 @@ class MoviesController < ApplicationController
   def index
     
     if clear_filters?
-        params[:sort_by] = nil
-        session[:sort_by] = nil
         params[:search] = nil
         session[:search_movie] = nil
         params[:ratings] = nil
@@ -40,16 +42,6 @@ class MoviesController < ApplicationController
     end
 
 
-    if params[:sort_by] #check if there's any new params
-      @sort_by = params[:sort_by]
-      session[:sort_by] = params[:sort_by]
-    elsif session[:sort_by] #if no new params, use saved in session
-      @sort_by = session[:sort_by]
-      redirect = true
-    else
-      @sort_by = nil
-    end
-
     if params[:ratings]
       @ratings = params[:ratings]
       session[:ratings] = params[:ratings]
@@ -62,16 +54,12 @@ class MoviesController < ApplicationController
 
     if redirect
       flash.keep
-      redirect_to movies_path(:sort_by=>@sort_by, :ratings=>@ratings, :search_movie => @search_movie)
+      redirect_to movies_path(:ratings=>@ratings, :search_movie => @search_movie)
 
     end
 
-    if @ratings and @sort_by
-      @movies = Movie.where(:rating => @ratings.keys).order(@sort_by)
-    elsif @ratings
+    if @ratings
       @movies = Movie.where(:rating => @ratings.keys)
-    elsif @sort_by
-      @movies = Movie.all.order(@sort_by)
     else
       @movies = Movie.all
     end
