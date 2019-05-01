@@ -71,6 +71,8 @@ class MoviesController < ApplicationController
     unless @ratings
       @ratings = Hash.new
     end
+    
+    @movies = @movies.order('title ASC')
 
   end
 

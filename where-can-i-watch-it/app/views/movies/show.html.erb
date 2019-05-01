@@ -15,8 +15,8 @@
         <h1 class="movie_header">Details about <%=@movie.title %></h1>
         <hr>
         <div class="row">
-            <div id="poster" class="col-lg-offset-2 col-md-offset-2 col-lg-2 col-md-2">
-                <%= image_tag (@movie.imgurl), :class => "Poster"%>
+            <div id="poster" class="col-lg-offset-0 col-md-offset-2 col-lg-2 col-md-2">
+                <%= image_tag (@movie.imgurl), :class => "Poster", size: "250x325" %>
                 <br>
                 <br>
                 <center>
@@ -51,6 +51,10 @@
                   <li>
                     Released on:
                     <%= @movie.release_date.strftime("%B %d, %Y") %>
+                  </li>
+                  <li>
+                    Price:
+                    <%= @movie.price %>
                   </li>
                   <li>
                     Times Favorited: 
