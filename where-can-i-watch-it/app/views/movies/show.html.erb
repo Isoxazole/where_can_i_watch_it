@@ -11,49 +11,73 @@
         <title>Movie</title>
     </head>
     <body>
-        <h2>Details about <%=@movie.title %></h2>
-        <ul id="details">
-         <li>
-         <%= image_tag (@movie.imgurl), :class => "Poster"%>
-         </li>
-          <li>
-            Rating:
-            <%= @movie.rating %>
-          </li>
-          <li>
-            Released on:
-            <%= @movie.release_date.strftime("%B %d, %Y") %>
-          </li>
-          <li>
-            Times Favorited: 
-            <%= @movie.favcounter %>
-          </li>
-        </ul>
-        <h3>Description:</h3>
-        <p id="description">
-          <%= @movie.description %>
-        </p>
-        
-        <h3>Comments (<%= @movie.comments.size %>)</h3>
-        <%= render partial: 'movies/comment', collection: @movie.comments %>
-        <%= render partial: 'movies/form' %>
-        
-        <div class="turn_white">
-        <%= link_to 'Edit', edit_movie_path(@movie) %>
-        <%= button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?', :class => 'actions' %>
-        
-        </br>
-        <% if user_signed_in? %>
-        <%- unless current_user.favorite_movies.exists?(id: @movie.id) -%>
-        <%= link_to 'Add to favorites', favorite_movies_path(movie_id: @movie), method: :post %>
-        <%- else -%>
-        <%= link_to 'Remove from favorites', favorite_movie_path(@movie), method: :delete %>
-        <%- end -%>
-        <% end %>
-        </br>
-        
-        
-            <%= link_to 'Back to movie list', movies_path %>
+    <br>
+        <h1 class="movie_header">Details about <%=@movie.title %></h1>
+        <hr>
+        <div class="row">
+            <div id="poster" class="col-lg-offset-2 col-md-offset-2 col-lg-2 col-md-2">
+                <%= image_tag (@movie.imgurl), :class => "Poster"%>
+                <br>
+                <br>
+                <center>
+                <div id="movie_options" class="turn_white">
+                    <%= link_to 'Edit', edit_movie_path(@movie) %>
+                    <br>
+                    <% if user_signed_in? %>
+                    <%- unless current_user.favorite_movies.exists?(id: @movie.id) -%>
+                    <%= link_to 'Add to favorites', favorite_movies_path(movie_id: @movie), method: :post %>
+                    <%- else -%>
+                    <%= link_to 'Remove from favorites', favorite_movie_path(@movie), method: :delete %>
+                    <%- end -%>
+                    <% end %>
+                    </br>
+                    <br>
+                    <%= button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?', :class => 'actions' %>
+                    
+                    </br>
+                    
+                    
+                    <%= link_to 'Back to movie list', movies_path %>
+                </div>
+                </center>
+            </div>
+            <div id="movie_content" class="col-lg-offset-1 col-md-offset-1 col-lg-7 col-md-7">
+                <ul id="details">
+                  <h3>
+                  <li>
+                    Rating:
+                    <%= @movie.rating %>
+                  </li>
+                  <li>
+                    Released on:
+                    <%= @movie.release_date.strftime("%B %d, %Y") %>
+                  </li>
+                  <li>
+                    Times Favorited: 
+                    <%= @movie.favcounter %>
+                  </li>
+                  </h3>
+                </ul>
+                <h3>Description:</h3>
+                <p id="description">
+                  <%= @movie.description %>
+                </p>
+            </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Comments (<%= @movie.comments.size %>)</h1>
+        <br>
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-2">
+                <%= render partial: 'movies/form' %>
+            </div>
+            
+            <div class="col-lg-offset-1 col-lg-7">
+                <%= render partial: 'movies/comment', collection: @movie.comments %>
+            </div>
     </body>
 </html>

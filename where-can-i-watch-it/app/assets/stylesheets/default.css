@@ -180,3 +180,25 @@ hr
     width: 200px;
     text-align: center;
 }
+
+.movie_header
+{
+    
+}
+
+#details
+{
+    list-style: none;
+    margin-left: -50px;
+}
+
+#movie_options
+{
+    margin-left: -50px;
+}
+
+.comment
+{
+    border: 1px white solid;
+    padding: 10px;
+}
