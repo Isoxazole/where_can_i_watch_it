@@ -114,8 +114,8 @@ World FavoritesStepHelper
 #Scenario: the user wants to add a movie to their favorites list, but is not logged in
     Given ("the user is on a movies page and is not logged in") do
         visit "/"
-         create_visitor
-         page.should_not have_content (@visitor[:email])
+        create_visitor
+        page.should_not have_content (@visitor[:email])
     end
     When ("the user searches for the 'add to favorites button'") do
         click_link(:href => "/movies/1")

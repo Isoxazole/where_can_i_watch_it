@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="/assets/application-3c0ddb33aa9c0f64889fc2216ccd8044072a5357b5c41760517b0f61bee5b204.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="screen" href="/assets/default-c3039dacb139edbc9940fec10ac9d6a38fc947f506767f45490968a5c1615625.css" />
+    <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://evening-peak-74429.herokuapp.com/"><h1>Where Can I Watch It?</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><h3>Home</h3><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recent_releases"><h3>New</h3></a>
+          </li>
+          <li class="nav-item">
+            <a href="/popular"></a><a class="nav-link" href="/popular"><h3>Popular</h3></a>
+          </li>
+          
+                <li class="nav-item"><a data-method="get" href="/favorites"></a><a class="nav-link" href="/favorites"><h3>Favorites</h3></a></li>
+                <li id="user-email" class="nav-item"><h3><a class="nav-link" href="/"><a href="/users/edit">test@test.com</a></a></h3></li>
+                <li id="log-out" class="nav-item"><h3><a rel="nofollow" data-method="delete" href="/users/sign_out">Log Out</a><a class="nav-link" href=''></a></h3></li>
+                
+        <li class="nav-item">
+            <form id="search" class="form-inline">
+                <form id="search bar" action="/movies" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                        <input type="text" name="search" id="extend" class="form-control" />
+                        <input type="submit" name="commit" value="Search" id="search_submit" class="btn" />
+</form>            </form>
+        </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" href="/assets/default-c3039dacb139edbc9940fec10ac9d6a38fc947f506767f45490968a5c1615625.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+        
+        
+        <title>Movie</title>
+    </head>
+    <body>
+    <br>
+        <h1 class="movie_header">Details about Apostle</h1>
+        <hr>
+        <div class="row">
+            <div id="poster" class="col-lg-offset-2 col-md-offset-2 col-lg-2 col-md-2">
+                <img class="Poster" src="/assets/apostle_poster-01b6b162ba5a7549827241802203e2a1dad1736aee46c837435f20362a3cdc8c.jpg" alt="Apostle poster" />
+                <br>
+                <br>
+                <center>
+                <div id="movie_options" class="turn_white">
+                    <a href="/movies/1/edit">Edit</a>
+                    <br>
+                    <a rel="nofollow" data-method="post" href="/favorite_movies?movie_id=1">Add to favorites</a>
+                    </br>
+                    <br>
+                    <form class="button_to" method="post" action="/movies/1"><input type="hidden" name="_method" value="delete" /><input confirm="Are you sure?" class="actions" type="submit" value="Delete" /></form>
+                    
+                    </br>
+                    
+                    
+                    <a href="/movies">Back to movie list</a>
+                </div>
+                </center>
+            </div>
+            <div id="movie_content" class="col-lg-offset-1 col-md-offset-1 col-lg-7 col-md-7">
+                <ul id="details">
+                  <h3>
+                  <li>
+                    Rating:
+                    Netflix
+                  </li>
+                  <li>
+                    Released on:
+                    October 12, 2018
+                  </li>
+                  <li>
+                    Times Favorited: 
+                    0
+                  </li>
+                  </h3>
+                </ul>
+                <h3>Description:</h3>
+                <p id="description">
+                  
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Comments (0)</h1>
+        <br>
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-2">
+                <h3>Post a Comment</h3>
+
+<div class="field">
+    <form class="new_comment" id="new_comment" action="/movies/1/comments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <p>
+        <label class="field-label" for="comment_author_name">Your Name</label><br/>
+        <input type="text" name="comment[author_name]" id="comment_author_name" />
+      </p>
+      <p>
+        <label class="field-label" for="comment_body">Your Comment</label><br/>
+        <textarea name="comment[body]" id="comment_body">
+</textarea>
+      </p>
+      <p>
+        <input type="submit" name="commit" value="Submit" />
+      </p>
+</form></div>
+            </div>
+            
+            <div class="col-lg-offset-1 col-lg-7">
+                
+            </div>
+    </body>
+</html>
+    </div>
+  </body>
+</html>

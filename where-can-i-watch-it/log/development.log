@@ -59187,3 +59187,121 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.erb within layouts/application (50.1ms)
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
 Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 128.198.103.254 at 2019-05-01 20:44:50 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (1645.0ms)
+Completed 200 OK in 1707ms (Views: 1690.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/default.self-9f709025f906a60543681ac9c9969897dd8f103befba8c7ac2a9e9b65217de52.css?body=1" for 128.198.103.254 at 2019-05-01 20:44:52 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.103.254 at 2019-05-01 20:44:53 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies/1" for 128.198.103.254 at 2019-05-01 20:44:55 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 66ms (Views: 53.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 128.198.103.254 at 2019-05-01 20:45:02 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 64ms (Views: 58.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users/sign_in" for 128.198.103.254 at 2019-05-01 20:45:10 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n2HBtTqCdtIW0BALu2A8BZ3b4ashBnwuUwQfL/FLBRYKJmqQXKMXrJluuJOxZbtFDGoHuDL9QQ8h1uvn+blx8w==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "test@test.com"]]
+Redirected to https://6714ffb88f2846d9ac6f77f95fc504f7.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 149ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 128.198.103.254 at 2019-05-01 20:45:10 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (47.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 128.198.103.254 at 2019-05-01 20:45:17 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Redirected to https://6714ffb88f2846d9ac6f77f95fc504f7.vfs.cloud9.us-east-2.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/1" for 128.198.103.254 at 2019-05-01 20:45:20 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1[0m  [["user_id", 2], ["favorited_type", "Movie"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/_form.html.erb (1.4ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/movies/1/comments" for 128.198.103.254 at 2019-05-01 20:46:02 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S60EeQBByf7qCNmLltbDGqig8Cmx4/AS8x63J5WXPbEBFEZd8pPQIjGCnX3+CjeRioPdPSxYk/wvSVUatGGK9g==", "comment"=>{"body"=>"This Movie Sucks!!"}, "commit"=>"Submit", "movie_id"=>"1"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Redirected to https://6714ffb88f2846d9ac6f77f95fc504f7.vfs.cloud9.us-east-2.amazonaws.com/movies/1
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/1" for 128.198.103.254 at 2019-05-01 20:46:02 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1[0m  [["user_id", 2], ["favorited_type", "Movie"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/_form.html.erb (0.6ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 128.198.103.254 at 2019-05-01 21:02:41 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.8ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (243.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 317ms (Views: 300.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/folk-pattern-black.png" for 128.198.103.254 at 2019-05-01 21:02:41 +0000
+Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
