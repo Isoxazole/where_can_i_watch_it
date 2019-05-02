@@ -12,4 +12,12 @@ class CommentsController < ApplicationController
   def comment_params
     params.require(:comment).permit(:author_name, :body)
   end
+
+  def destroy
+    @movie = Movie.find(params[:movie_id])
+    @comment = @movie.comments.find(params[:id])
+    @comment.destroy
+    flash[:notice] = "Comment deleted."
+    redirect_to movie_path(@movie)
+  end
 end
