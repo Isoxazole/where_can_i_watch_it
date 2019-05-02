@@ -4,7 +4,7 @@
     <%= form_for [ @movie, @comment ] do |f| %>
       <p>
         <%= f.label :author_name, "Your Name", :class => 'field-label' %><br/>
-        <%= current_user.email[/[^@]+/] %>
+    <h4 class="make-shit-white"><%= current_user.email.split("@")[0] %></h4>
 
       </p>
       <p>

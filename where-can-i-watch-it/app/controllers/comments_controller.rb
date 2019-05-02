@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   def create
     @comment = Comment.new(comment_params)
     @comment.movie_id = params[:movie_id]
-    @comment.author_name = current_user.email[/[^@]+/]
+    @comment.author_name = current_user.email.split("@")[0]
 
     @comment.save
 
