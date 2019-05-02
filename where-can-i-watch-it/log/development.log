@@ -59305,3 +59305,423 @@ Completed 200 OK in 317ms (Views: 300.8ms | ActiveRecord: 1.6ms)
 
 Started GET "/assets/folk-pattern-black.png" for 128.198.103.254 at 2019-05-01 21:02:41 +0000
 Cannot render console from 128.198.103.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 65.154.122.205 at 2019-05-02 04:38:43 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title ASC[0m
+  Rendered movies/index.html.erb within layouts/application (1815.0ms)
+Completed 200 OK in 1925ms (Views: 1907.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-9f709025f906a60543681ac9c9969897dd8f103befba8c7ac2a9e9b65217de52.css?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-79c73768108ee6350316aa89695c7b39ae826cb014ab02adc91201ea06b8ce31.css?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:45 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:46 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/folk-pattern-black.png" for 65.154.122.205 at 2019-05-02 04:38:47 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies/4" for 65.154.122.205 at 2019-05-02 04:38:51 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 4]]
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (125.5ms)
+Completed 200 OK in 191ms (Views: 164.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies/4" for 65.154.122.205 at 2019-05-02 04:39:49 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 4]]
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for 65.154.122.205 at 2019-05-02 04:40:07 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 4]]
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for 65.154.122.205 at 2019-05-02 04:41:17 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 4]]
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/popular" for 65.154.122.205 at 2019-05-02 04:41:19 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY favcounter DESC LIMIT 10
+  Rendered movies/popular.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/popular" for 65.154.122.205 at 2019-05-02 04:41:53 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#popular as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies"  ORDER BY favcounter DESC LIMIT 10[0m
+  Rendered movies/popular.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/recent_releases" for 65.154.122.205 at 2019-05-02 04:43:18 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (release_date >= '2019-04-18')
+  Rendered movies/recent_releases.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for 65.154.122.205 at 2019-05-02 04:43:58 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 88ms (Views: 80.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in" for 65.154.122.205 at 2019-05-02 04:44:02 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xLTLL4V0to6yW/OmDpjZZh2Pskhr+Tljoo0k3xLVOeLsz0BpaouqN05+s7e/9Fvg3PSzmAtgZTWV99d58F7NLw==", "user"=>{"email"=>"andrewsmcgrath@yahoo.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "andrewsmcgrath@yahoo.com"]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xLTLL4V0to6yW/OmDpjZZh2Pskhr+Tljoo0k3xLVOeLsz0BpaouqN05+s7e/9Fvg3PSzmAtgZTWV99d58F7NLw==", "user"=>{"email"=>"andrewsmcgrath@yahoo.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 198ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 65.154.122.205 at 2019-05-02 04:44:04 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (6.1ms)
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 82ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 65.154.122.205 at 2019-05-02 04:44:10 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jE+oivCpmG6RWcSORdeFfgVFeqx12KC1YkjKF5TTrGGkNCPMH1aE1218hJ/0uwf4xD57fBVB/ONVMjmxdlhYrA==", "user"=>{"email"=>"andrewsmcgrath@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'andrewsmcgrath@yahoo.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "andrewsmcgrath@yahoo.com"], ["encrypted_password", "$2a$11$d4VDOIlrAi4BuGCoudsI9uQrISyrCtpylxwDGCABDKnap3UOs7Zwi"], ["created_at", "2019-05-02 04:44:11.087899"], ["updated_at", "2019-05-02 04:44:11.087899"]]
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://node27.codenvy.io:39152/
+Completed 302 Found in 164ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/" for 65.154.122.205 at 2019-05-02 04:44:11 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title ASC[0m
+  Rendered movies/index.html.erb within layouts/application (42.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/movies/15" for 65.154.122.205 at 2019-05-02 04:44:20 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1[0m  [["user_id", 2], ["favorited_type", "Movie"], ["id", 15]]
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 15]]
+  Rendered movies/_form.html.erb (1.6ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/favorite_movies?movie_id=15" for 65.154.122.205 at 2019-05-02 04:44:24 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"C4mhF0C50AS2VUh23u1mBB6NespO/qOXG/hyB3w+R6gj8ipRr0bMvUpwCGdvgeSC3/Z7Gi5n/8EsgoGhnrWzZQ==", "movie_id"=>"15"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "favorites" ("favorited_id", "favorited_type", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["favorited_id", 15], ["favorited_type", "Movie"], ["user_id", 2], ["created_at", "2019-05-02 04:44:24.425888"], ["updated_at", "2019-05-02 04:44:24.425888"]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "movies" SET "favcounter" = ?, "updated_at" = ? WHERE "movies"."id" = ?[0m  [["favcounter", 1], ["updated_at", "2019-05-02 04:44:24.431188"], ["id", 15]]
+  [1m[35m (3.5ms)[0m  commit transaction
+Redirected to http://node27.codenvy.io:39152/movies/15
+Completed 302 Found in 24ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/movies/15" for 65.154.122.205 at 2019-05-02 04:44:24 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1[0m  [["user_id", 2], ["favorited_type", "Movie"], ["id", 15]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 15]]
+  Rendered movies/_form.html.erb (0.6ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/favorites" for 65.154.122.205 at 2019-05-02 04:44:27 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/favorites" for 65.154.122.205 at 2019-05-02 04:45:20 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 65ms (Views: 54.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/movies/15" for 65.154.122.205 at 2019-05-02 04:45:21 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1[0m  [["user_id", 2], ["favorited_type", "Movie"], ["id", 15]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 15]]
+  Rendered movies/_form.html.erb (1.3ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (62.9ms)
+Completed 200 OK in 102ms (Views: 88.3ms | ActiveRecord: 3.8ms)
+
+
+Started DELETE "/favorite_movies/15" for 65.154.122.205 at 2019-05-02 04:45:25 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6l3T01qQS3cdrY8yL45tSFHsnVZ62iOLGi3v+/5JOeLCJliVtW9XzuGIzyOe4u/OkJechhpDf90tVxxdHMLNLw==", "id"=>"15"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "movies" SET "favcounter" = ?, "updated_at" = ? WHERE "movies"."id" = ?[0m  [["favcounter", 0], ["updated_at", "2019-05-02 04:45:25.141965"], ["id", 15]]
+  [1m[35m (3.2ms)[0m  commit transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mFavorite Load (0.2ms)[0m  SELECT  "favorites".* FROM "favorites" WHERE "favorites"."favorited_id" = ? AND "favorites"."user_id" = ?  ORDER BY "favorites"."id" ASC LIMIT 1  [["favorited_id", 15], ["user_id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "favorites" WHERE "favorites"."id" = ?  [["id", 1]]
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://node27.codenvy.io:39152/movies/15
+Completed 302 Found in 14ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/movies/15" for 65.154.122.205 at 2019-05-02 04:45:25 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Exists (0.1ms)[0m  SELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1  [["user_id", 2], ["favorited_type", "Movie"], ["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 15]]
+  Rendered movies/_form.html.erb (0.6ms)
+  Rendered movies/_comment.html.erb (0.1ms)
+  Rendered movies/show.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/favorite_movies?movie_id=15" for 65.154.122.205 at 2019-05-02 04:45:28 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#create as HTML
+  Parameters: {"authenticity_token"=>"zyTMuH70iNdTrtoxZSmOcaLIv0Bag/D7l9tczDZmJbXnX0f+kQuUbq+LmiDURQz3Y7O+kDoarK2goa9q1O3ReA==", "movie_id"=>"15"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "favorites" ("favorited_id", "favorited_type", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["favorited_id", 15], ["favorited_type", "Movie"], ["user_id", 2], ["created_at", "2019-05-02 04:45:28.760346"], ["updated_at", "2019-05-02 04:45:28.760346"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "movies" SET "favcounter" = ?, "updated_at" = ? WHERE "movies"."id" = ?  [["favcounter", 1], ["updated_at", "2019-05-02 04:45:28.765261"], ["id", 15]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://node27.codenvy.io:39152/movies/15
+Completed 302 Found in 18ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/movies/15" for 65.154.122.205 at 2019-05-02 04:45:28 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mMovie Exists (0.1ms)[0m  SELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ? AND "movies"."id" = ? LIMIT 1  [["user_id", 2], ["favorited_type", "Movie"], ["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 15]]
+  Rendered movies/_form.html.erb (0.7ms)
+  Rendered movies/_comment.html.erb (0.0ms)
+  Rendered movies/show.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/favorites" for 65.154.122.205 at 2019-05-02 04:45:33 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/favorites" for 65.154.122.205 at 2019-05-02 04:46:05 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FavoriteMoviesController#favorites as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."favorited_id" WHERE "favorites"."user_id" = ? AND "favorites"."favorited_type" = ?[0m  [["user_id", 2], ["favorited_type", "Movie"]]
+  Rendered favorite_movies/favorites.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 64ms (Views: 52.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/recent_releases" for 65.154.122.205 at 2019-05-02 04:46:07 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (release_date >= '2019-04-01')
+  Rendered movies/recent_releases.html.erb within layouts/application (27.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recent_releases?utf8=%E2%9C%93&search=MHa&commit=Search" for 65.154.122.205 at 2019-05-02 04:46:24 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#recent_releases as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"MHa", "commit"=>"Search"}
+Redirected to http://node27.codenvy.io:39152/movies?search=MHa
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?search=MHa" for 65.154.122.205 at 2019-05-02 04:46:24 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"search"=>"MHa"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (lower(title) LIKE '%mha%')  ORDER BY title ASC[0m
+  Rendered movies/index.html.erb within layouts/application (28.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Clear" for 65.154.122.205 at 2019-05-02 04:46:31 +0000
+Cannot render console from 65.154.122.205! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Clear"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT DISTINCT "movies"."rating" FROM "movies"[0m
+  [1m[35mMovie Load (2.3ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title ASC
+  Rendered movies/index.html.erb within layouts/application (111.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 149ms (Views: 145.3ms | ActiveRecord: 2.6ms)

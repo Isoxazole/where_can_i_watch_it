@@ -21,8 +21,6 @@
                 <br>
                 <center>
                 <div id="movie_options" class="turn_white">
-                    <%= link_to 'Edit', edit_movie_path(@movie) %>
-                    <br>
                     <% if user_signed_in? %>
                     <%- unless current_user.favorite_movies.exists?(id: @movie.id) -%>
                     <%= link_to 'Add to favorites', favorite_movies_path(movie_id: @movie), method: :post %>
@@ -30,10 +28,6 @@
                     <%= link_to 'Remove from favorites', favorite_movie_path(@movie), method: :delete %>
                     <%- end -%>
                     <% end %>
-                    </br>
-                    <br>
-                    <%= button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?', :class => 'actions' %>
-                    
                     </br>
                     
                     

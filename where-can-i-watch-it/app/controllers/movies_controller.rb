@@ -123,7 +123,7 @@ class MoviesController < ApplicationController
   
   @movies = Movie.all
    
-  time_range = 14
+  time_range = 31
   
   @movies = Movie.where("release_date >= ?", (Date.today - time_range))
   
