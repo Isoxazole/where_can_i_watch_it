@@ -25,13 +25,18 @@ module CommentStepHelper
 	  fill_in "user_password_confirmation", :with => @visitor[:password_confirmation]
 	  click_button "Sign up"
 	  find_user
-	end
+  end
+  def fill_in_comment
+    fill_in('comment_body', :with => "This Movie Sucks!!")
+    page.click_button("Submit")
+  end
 	def load_database
 	    load File.join(Rails.root, 'db', 'seeds.rb')
 	end    
 end
 
 World CommentStepHelper
+
 
 #Scenario: The user creates a comment on a movies page
     Given ("the user is on a certain movies page") do
@@ -45,8 +50,7 @@ World CommentStepHelper
         page.should have_content "Details about Apostle"
     end
     When ("the user enters their comment and clicks the submit button") do
-        fill_in('comment_body', :with => "This Movie Sucks!!")
-        page.click_button("Submit")
+        fill_in_comment
         save_and_open_page
     end
     Then ("the user should see their comment created on the movies page") do
@@ -56,16 +60,18 @@ World CommentStepHelper
     
 #Scenario: The user deletes a comment on a movies page
     Given ("the user is on a new movies page") do
+        load_database
         create_visitor
         visit "/users/sign_up"
         sign_up
         visit "/"
         page.should have_content "Apostle"
-        click_link(:href => "/movies/1")
+        page.click_link(:href => "/movies/1")
         page.should have_content "Details about Apostle"
     end
     When ("the user clicks the delete button") do
-        click_link(:href => "/movies/1/comments/")
+        fill_in_comment
+        page.click_link("Delete comment")
     end
     Then ("the user should see their comment deleted from the movies page") do
         page.should_not have_content "This Movie Sucks!!"
