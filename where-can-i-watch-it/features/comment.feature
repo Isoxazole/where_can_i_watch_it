@@ -5,10 +5,6 @@ Feature: Allows a user to input and view comments from the user and other users.
     When the user enters their comment and clicks the submit button
     Then the user should see their comment created on the movies page
 
-  Scenario: The user edits a comment on a movies page
-    Given the user is on a movies base page
-    When the user clicks the edit button, edits their comment, and submits
-    Then the user should see their comment edited on the movies page.
     
   Scenario: The user deletes a comment on a movies page
     Given the user is on a new movies page

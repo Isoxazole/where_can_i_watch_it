@@ -41,33 +41,18 @@ World CommentStepHelper
         sign_up
         visit "/"
         page.should have_content "Apostle"
-        click_link(:href => "/movies/1")
+        page.click_link(:href => "/movies/1")
         page.should have_content "Details about Apostle"
     end
     When ("the user enters their comment and clicks the submit button") do
-        fill_in('comment[body]', :with => "This Movie Sucks!!")
+        fill_in('comment_body', :with => "This Movie Sucks!!")
+        page.click_button("Submit")
         save_and_open_page
     end
     Then ("the user should see their comment created on the movies page") do
         page.should have_content "This Movie Sucks!!"
     end
 
-#Scenario: The user edits a comment on a movies page
-    Given ("the user is on a movies base page") do
-        create_visitor
-        visit "/users/sign_up"
-        sign_up
-        visit "/"
-        page.should have_content "Apostle"
-        click_link(:href => "/movies/1")
-        page.should have_content "Details about Apostle"
-    end
-    When ("the user clicks the edit button, edits their comment, and submits") do
-        
-    end
-    Then ("the user should see their comment edited on the movies page.") do
-        page.should have_content "This Movie Sucks!!"
-    end
     
 #Scenario: The user deletes a comment on a movies page
     Given ("the user is on a new movies page") do
@@ -80,7 +65,7 @@ World CommentStepHelper
         page.should have_content "Details about Apostle"
     end
     When ("the user clicks the delete button") do
-        pending #Add button name, fillin content, and submit button name
+        click_link(:href => "/movies/1/comments/")
     end
     Then ("the user should see their comment deleted from the movies page") do
         page.should_not have_content "This Movie Sucks!!"
