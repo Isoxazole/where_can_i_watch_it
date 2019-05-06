@@ -29,6 +29,7 @@ World FilterStepHelper
     
 #Scenario: the user selects to 'Clear'
     Given ("the user is located in the main movies page") do
+        load_database
         visit "/"
     end
     When ("the user selects what provider to filter by and presses 'Clear' instead") do
