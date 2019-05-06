@@ -94,6 +94,7 @@ World FavoritesStepHelper
     
 #Scenario: the user removes a movie to their favorites list
     Given ("the user is on a movies page and is logged in") do
+        load_database
         create_visitor
         visit "/users/sign_up"
         sign_up
@@ -113,6 +114,7 @@ World FavoritesStepHelper
 
 #Scenario: the user wants to add a movie to their favorites list, but is not logged in
     Given ("the user is on a movies page and is not logged in") do
+        load_database
         visit "/"
         create_visitor
         page.should_not have_content (@visitor[:email])

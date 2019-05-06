@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.2/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_red.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_yellow.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.2/favicon.png" />
   </head>
   
@@ -14,18 +14,18 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-05T18:27:13-07:00">2019-05-05T18:27:13-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-05T18:31:04-07:00">2019-05-05T18:31:04-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">79.39%</span></span>
+    (<span class="covered_percent"><span class="yellow">82.02%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.52
+         2.64
        </span>
     </span> hits/line)
   </h2>
@@ -33,8 +33,8 @@
   <div>
     <b>19</b> files in total.
     <b>495</b> relevant lines. 
-    <span class="green"><b>393</b> lines covered</span> and
-    <span class="red"><b>102</b> lines missed </span>
+    <span class="green"><b>406</b> lines covered</span> and
+    <span class="red"><b>89</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -72,12 +72,12 @@
       
       <tr>
         <td class="strong"><a href="#cb2bf845a26b19c2aa6eed449fc8e5cac5b3b29a" class="src_link" title="app/controllers/favorite_movies_controller.rb">app/controllers/favorite_movies_controller.rb</a></td>
-        <td class="red strong">61.11 %</td>
+        <td class="yellow strong">88.89 %</td>
         <td>32</td>
         <td>18</td>
-        <td>11</td>
-        <td>7</td>
-        <td>0.9</td>
+        <td>16</td>
+        <td>2</td>
+        <td>1.4</td>
       </tr>
       
       <tr>
@@ -87,7 +87,7 @@
         <td>73</td>
         <td>45</td>
         <td>28</td>
-        <td>8.4</td>
+        <td>8.7</td>
       </tr>
       
       <tr>
@@ -147,7 +147,7 @@
         <td>13</td>
         <td>8</td>
         <td>5</td>
-        <td>13.2</td>
+        <td>14.2</td>
       </tr>
       
       <tr>
@@ -162,22 +162,22 @@
       
       <tr>
         <td class="strong"><a href="#06c12312a3ad6adda71db0bf1612a94be7f30c44" class="src_link" title="features/step_definitions/comment.rb">features/step_definitions/comment.rb</a></td>
-        <td class="red strong">79.71 %</td>
-        <td>98</td>
-        <td>69</td>
-        <td>55</td>
+        <td class="red strong">79.1 %</td>
+        <td>96</td>
+        <td>67</td>
+        <td>53</td>
         <td>14</td>
         <td>0.8</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#75de6aa5d33a4292089dad4735ba3b52ff640380" class="src_link" title="features/step_definitions/favorites.rb">features/step_definitions/favorites.rb</a></td>
-        <td class="red strong">74.42 %</td>
-        <td>126</td>
-        <td>86</td>
-        <td>64</td>
-        <td>22</td>
-        <td>0.7</td>
+        <td class="yellow strong">84.09 %</td>
+        <td>128</td>
+        <td>88</td>
+        <td>74</td>
+        <td>14</td>
+        <td>0.8</td>
       </tr>
       
       <tr>
@@ -217,7 +217,7 @@
         <td>47</td>
         <td>47</td>
         <td>0</td>
-        <td>2.9</td>
+        <td>3.0</td>
       </tr>
       
       <tr>
@@ -465,11 +465,11 @@
         <div class="source_table" id="cb2bf845a26b19c2aa6eed449fc8e5cac5b3b29a">
   <div class="header">
     <h3>app/controllers/favorite_movies_controller.rb</h3>
-    <h4><span class="red">61.11 %</span> covered</h4>
+    <h4><span class="yellow">88.89 %</span> covered</h4>
     <div>
       <b>18</b> relevant lines. 
-      <span class="green"><b>11</b> lines covered</span> and
-      <span class="red"><b>7</b> lines missed.</span>
+      <span class="green"><b>16</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -500,32 +500,32 @@
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="5">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
           
           <code class="ruby">    @movie = Movie.find(params[:movie_id] || params[:id])</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="6">
+          <span class="hits">3</span>
           
           <code class="ruby">    if Favorite.create(favorited: @movie, user: current_user)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="7">
+          <span class="hits">3</span>
           
           <code class="ruby">        @movie.favcounter += 1</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="8">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="8">
+          <span class="hits">3</span>
           
           <code class="ruby">        @movie.save</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="9">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="9">
+          <span class="hits">3</span>
           
           <code class="ruby">      redirect_to @movie</code>
         </li>
@@ -566,32 +566,32 @@
           <code class="ruby">  def destroy</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
           
           <code class="ruby">    @movie = Movie.find(params[:movie_id] || params[:id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
           
           <code class="ruby">    @movie.favcounter -= 1</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
           
           <code class="ruby">    @movie.save</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="19">
-          
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
           
           <code class="ruby">    Favorite.where(favorited_id: @movie.id, user_id: current_user.id).first.destroy</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
           
           <code class="ruby">    redirect_to @movie</code>
         </li>
@@ -729,8 +729,8 @@
           <code class="ruby">  def show</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="8">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="14" data-linenumber="8">
+          <span class="hits">14</span>
           
           <code class="ruby">     if params[:search]</code>
         </li>
@@ -753,26 +753,26 @@
           <code class="ruby">  </code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="12">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="14" data-linenumber="12">
+          <span class="hits">14</span>
           
           <code class="ruby">    id = params[:id] # retrieve movie ID from URI route</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="13">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="14" data-linenumber="13">
+          <span class="hits">14</span>
           
           <code class="ruby">    @movie = Movie.find(id) # look up movie by unique ID</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="14">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="14" data-linenumber="14">
+          <span class="hits">14</span>
           
           <code class="ruby">    @comment = Comment.new</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="15">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="14" data-linenumber="15">
+          <span class="hits">14</span>
           
           <code class="ruby">    @comment.movie_id = id</code>
         </li>
@@ -1779,8 +1779,8 @@
           <code class="ruby">    array = Array.new</code>
         </li>
       
-        <li class="covered" data-hits="78" data-linenumber="6">
-          <span class="hits">78</span>
+        <li class="covered" data-hits="90" data-linenumber="6">
+          <span class="hits">90</span>
           
           <code class="ruby">    self.select(&quot;rating&quot;).uniq.each {|x| array.push(x.rating)}</code>
         </li>
@@ -2130,10 +2130,10 @@
         <div class="source_table" id="06c12312a3ad6adda71db0bf1612a94be7f30c44">
   <div class="header">
     <h3>features/step_definitions/comment.rb</h3>
-    <h4><span class="red">79.71 %</span> covered</h4>
+    <h4><span class="red">79.1 %</span> covered</h4>
     <div>
-      <b>69</b> relevant lines. 
-      <span class="green"><b>55</b> lines covered</span> and
+      <b>67</b> relevant lines. 
+      <span class="green"><b>53</b> lines covered</span> and
       <span class="red"><b>14</b> lines missed.</span>
     </div>
   </div>
@@ -2540,190 +2540,178 @@
         <li class="covered" data-hits="1" data-linenumber="67">
           <span class="hits">1</span>
           
-          <code class="ruby">        save_and_open_page</code>
+          <code class="ruby">        page.should have_content &quot;Apostle&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="68">
           <span class="hits">1</span>
           
-          <code class="ruby">        page.should have_content &quot;Apostle&quot;</code>
+          <code class="ruby">        page.click_link(:href =&gt; &quot;/movies/1&quot;)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="69">
           <span class="hits">1</span>
           
-          <code class="ruby">        page.click_link(:href =&gt; &quot;/movies/1&quot;)</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="70">
-          <span class="hits">1</span>
-          
           <code class="ruby">        page.should have_content &quot;Details about Apostle&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="71">
+        <li class="never" data-hits="" data-linenumber="70">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="72">
+        <li class="covered" data-hits="1" data-linenumber="71">
           <span class="hits">1</span>
           
           <code class="ruby">    When (&quot;the user clicks the delete button&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="73">
+        <li class="covered" data-hits="1" data-linenumber="72">
           <span class="hits">1</span>
           
           <code class="ruby">        fill_in_comment</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="74">
+        <li class="covered" data-hits="1" data-linenumber="73">
           <span class="hits">1</span>
           
           <code class="ruby">        page.click_link(&quot;Delete comment&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="75">
+        <li class="never" data-hits="" data-linenumber="74">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="76">
+        <li class="covered" data-hits="1" data-linenumber="75">
           <span class="hits">1</span>
           
           <code class="ruby">    Then (&quot;the user should see their comment deleted from the movies page&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="77">
+        <li class="covered" data-hits="1" data-linenumber="76">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should_not have_content &quot;This Movie Sucks!!&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="78">
+        <li class="never" data-hits="" data-linenumber="77">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="79">
+        <li class="never" data-hits="" data-linenumber="78">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="80">
+        <li class="never" data-hits="" data-linenumber="79">
           
           
           <code class="ruby">#Scenario: the user is not logged in and attempts to post a comment</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="81">
+        <li class="covered" data-hits="1" data-linenumber="80">
           <span class="hits">1</span>
           
           <code class="ruby">    Given (&quot;the user is on a distinct movies page and is not logged in&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="82">
+        <li class="covered" data-hits="1" data-linenumber="81">
           <span class="hits">1</span>
           
           <code class="ruby">        load_database</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="83">
+        <li class="covered" data-hits="1" data-linenumber="82">
           <span class="hits">1</span>
           
           <code class="ruby">        create_visitor</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="84">
+        <li class="covered" data-hits="1" data-linenumber="83">
           <span class="hits">1</span>
           
           <code class="ruby">        visit &quot;/&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="85">
-          <span class="hits">1</span>
-          
-          <code class="ruby">        save_and_open_page</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="86">
+        <li class="covered" data-hits="1" data-linenumber="84">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should_not have_content(@visitor[:email])</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="87">
+        <li class="covered" data-hits="1" data-linenumber="85">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content &quot;Apostle&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="88">
+        <li class="covered" data-hits="1" data-linenumber="86">
           <span class="hits">1</span>
           
           <code class="ruby">        click_link(:href =&gt; &quot;/movies/1&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="89">
+        <li class="covered" data-hits="1" data-linenumber="87">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content &quot;Details about Apostle&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="90">
+        <li class="never" data-hits="" data-linenumber="88">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="91">
+        <li class="covered" data-hits="1" data-linenumber="89">
           <span class="hits">1</span>
           
           <code class="ruby">    When (&quot;the user attempts to post a comment&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="92">
+        <li class="covered" data-hits="1" data-linenumber="90">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content &quot;Sign in to post a comment&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="93">
+        <li class="never" data-hits="" data-linenumber="91">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="94">
+        <li class="covered" data-hits="1" data-linenumber="92">
           <span class="hits">1</span>
           
           <code class="ruby">    Then (&quot;the user is redirected to the login page&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="95">
+        <li class="covered" data-hits="1" data-linenumber="93">
           <span class="hits">1</span>
           
           <code class="ruby">        click_link(&quot;Sign in to post a comment&quot;, :href =&gt; &quot;/users/sign_in&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="96">
+        <li class="covered" data-hits="1" data-linenumber="94">
           <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content &quot;Log in&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="97">
+        <li class="never" data-hits="" data-linenumber="95">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="98">
+        <li class="never" data-hits="" data-linenumber="96">
           
           
           <code class="ruby">    </code>
@@ -2737,11 +2725,11 @@
         <div class="source_table" id="75de6aa5d33a4292089dad4735ba3b52ff640380">
   <div class="header">
     <h3>features/step_definitions/favorites.rb</h3>
-    <h4><span class="red">74.42 %</span> covered</h4>
+    <h4><span class="yellow">84.09 %</span> covered</h4>
     <div>
-      <b>86</b> relevant lines. 
-      <span class="green"><b>64</b> lines covered</span> and
-      <span class="red"><b>22</b> lines missed.</span>
+      <b>88</b> relevant lines. 
+      <span class="green"><b>74</b> lines covered</span> and
+      <span class="red"><b>14</b> lines missed.</span>
     </div>
   </div>
   
@@ -3327,178 +3315,190 @@
         <li class="covered" data-hits="1" data-linenumber="97">
           <span class="hits">1</span>
           
-          <code class="ruby">        create_visitor</code>
+          <code class="ruby">        load_database</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="98">
           <span class="hits">1</span>
           
-          <code class="ruby">        visit &quot;/users/sign_up&quot;</code>
+          <code class="ruby">        create_visitor</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="99">
           <span class="hits">1</span>
           
-          <code class="ruby">        sign_up</code>
+          <code class="ruby">        visit &quot;/users/sign_up&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="100">
           <span class="hits">1</span>
           
-          <code class="ruby">        visit &quot;/&quot;</code>
+          <code class="ruby">        sign_up</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="101">
           <span class="hits">1</span>
           
+          <code class="ruby">        visit &quot;/&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="102">
+          <span class="hits">1</span>
+          
           <code class="ruby">        click_link(:href =&gt; &quot;/movies/1&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="102">
-          
+        <li class="covered" data-hits="1" data-linenumber="103">
+          <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content &quot;Details about Apostle&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="103">
+        <li class="never" data-hits="" data-linenumber="104">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="104">
+        <li class="covered" data-hits="1" data-linenumber="105">
           <span class="hits">1</span>
           
           <code class="ruby">    When (&quot;the user presses the &#39;remove from favorites button&#39;&quot;) do</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="105">
-          
+        <li class="covered" data-hits="1" data-linenumber="106">
+          <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content(&quot;Add to favorites&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="106">
-          
+        <li class="covered" data-hits="1" data-linenumber="107">
+          <span class="hits">1</span>
           
           <code class="ruby">        click_link(&quot;Add to favorites&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="107">
-          
+        <li class="covered" data-hits="1" data-linenumber="108">
+          <span class="hits">1</span>
           
           <code class="ruby">        page.should have_content(&quot;Remove from favorites&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="108">
-          
+        <li class="covered" data-hits="1" data-linenumber="109">
+          <span class="hits">1</span>
           
           <code class="ruby">        click_link(&quot;Remove from favorites&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="109">
+        <li class="never" data-hits="" data-linenumber="110">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="110">
+        <li class="covered" data-hits="1" data-linenumber="111">
           <span class="hits">1</span>
           
           <code class="ruby">    Then (&quot;the movie is removed from their favorites list&quot;) do</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="111">
-          
+        <li class="covered" data-hits="1" data-linenumber="112">
+          <span class="hits">1</span>
           
           <code class="ruby">        page.has_link?(&quot;Add to favorites&quot;)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="112">
-          
-          
-          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="113">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="114">
           
           
-          <code class="ruby">#Scenario: the user wants to add a movie to their favorites list, but is not logged in</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="115">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="115">
           
-          <code class="ruby">    Given (&quot;the user is on a movies page and is not logged in&quot;) do</code>
+          
+          <code class="ruby">#Scenario: the user wants to add a movie to their favorites list, but is not logged in</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="116">
           <span class="hits">1</span>
           
-          <code class="ruby">        visit &quot;/&quot;</code>
+          <code class="ruby">    Given (&quot;the user is on a movies page and is not logged in&quot;) do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="117">
           <span class="hits">1</span>
           
-          <code class="ruby">        create_visitor</code>
+          <code class="ruby">        load_database</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="118">
           <span class="hits">1</span>
           
-          <code class="ruby">        page.should_not have_content (@visitor[:email])</code>
+          <code class="ruby">        visit &quot;/&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="119">
+        <li class="covered" data-hits="1" data-linenumber="119">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">        create_visitor</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="120">
           <span class="hits">1</span>
           
-          <code class="ruby">    When (&quot;the user searches for the &#39;add to favorites button&#39;&quot;) do</code>
+          <code class="ruby">        page.should_not have_content (@visitor[:email])</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="121">
-          <span class="hits">1</span>
-          
-          <code class="ruby">        click_link(:href =&gt; &quot;/movies/1&quot;)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="122">
-          
-          
-          <code class="ruby">        page.should have_content &quot;Details about Apostle&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="123">
+        <li class="never" data-hits="" data-linenumber="121">
           
           
           <code class="ruby">    end</code>
         </li>
       
+        <li class="covered" data-hits="1" data-linenumber="122">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    When (&quot;the user searches for the &#39;add to favorites button&#39;&quot;) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="123">
+          <span class="hits">1</span>
+          
+          <code class="ruby">        click_link(:href =&gt; &quot;/movies/1&quot;)</code>
+        </li>
+      
         <li class="covered" data-hits="1" data-linenumber="124">
+          <span class="hits">1</span>
+          
+          <code class="ruby">        page.should have_content &quot;Details about Apostle&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="125">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="126">
           <span class="hits">1</span>
           
           <code class="ruby">    Then (&quot;the &#39;add to favorites button&#39; should not be visable&quot;) do</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="125">
-          
+        <li class="covered" data-hits="1" data-linenumber="127">
+          <span class="hits">1</span>
           
           <code class="ruby">        page.should_not have_content(&quot;Add to favorites&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="126">
+        <li class="never" data-hits="" data-linenumber="128">
           
           
           <code class="ruby">    end</code>
@@ -4996,8 +4996,8 @@
           <code class="ruby">	def load_database</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="33">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="9" data-linenumber="33">
+          <span class="hits">9</span>
           
           <code class="ruby">	    load File.join(Rails.root, &#39;db&#39;, &#39;seeds.rb&#39;)</code>
         </li>
