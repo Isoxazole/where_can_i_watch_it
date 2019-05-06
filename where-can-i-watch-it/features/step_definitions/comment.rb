@@ -51,7 +51,6 @@ World CommentStepHelper
     end
     When ("the user enters their comment and clicks the submit button") do
         fill_in_comment
-        save_and_open_page
     end
     Then ("the user should see their comment created on the movies page") do
         page.should have_content "This Movie Sucks!!"
@@ -79,6 +78,7 @@ World CommentStepHelper
 
 #Scenario: the user is not logged in and attempts to post a comment
     Given ("the user is on a distinct movies page and is not logged in") do
+        load_database
         create_visitor
         visit "/"
         page.should_not have_content(@visitor[:email])

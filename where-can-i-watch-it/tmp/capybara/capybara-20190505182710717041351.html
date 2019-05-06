@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="/assets/application-b229238aa5bde6e35a9db5599260d4e858ea618f4f8c2cd180c47468422b08b1.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="screen" href="/assets/default-a7c0e04116553bfb60ed21e172de62de09fdb023525edfecb7435cb89acb060b.css" />
+    <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://evening-peak-74429.herokuapp.com/"><h1>Where Can I Watch It?</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><h3>Home</h3><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recent_releases"><h3>New</h3></a>
+          </li>
+          <li class="nav-item">
+            <a href="/popular"></a><a class="nav-link" href="/popular"><h3>Popular</h3></a>
+          </li>
+          
+                <li class="nav-item"><a href="/users/sign_in"></a><a class="nav-link" href="/users/sign_in"><h3>Login/Signup</h3></a></li>
+        <li class="nav-item">
+            <form id="search" class="form-inline">
+                <form id="search bar" action="/movies" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                        <input type="text" name="search" id="extend" class="form-control" />
+                        <input type="submit" name="commit" value="Search" id="search_submit" class="btn" />
+</form>            </form>
+        </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" href="/assets/default-a7c0e04116553bfb60ed21e172de62de09fdb023525edfecb7435cb89acb060b.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <script src="/assets/application-74c8a1fda6096f5451568968ee5727b35eec69239d70fc8e540d2c194f01461b.js" data-turbolinks-track="true"></script>
+        
+        
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="main-container" class="container-fluid">
+            <br/>
+            <br>
+            <div class="row" id="Services">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-lg-1 offset-md-1">
+                    <h1>Supported Services:</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/White_Prime_Video_Logo-8308c22166551f504c60d6443a8ce13e672f1c890fe731214924e9d1e22a3c20.png" alt="White prime video logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/Hulu_Logo-3807fed8d2afa5c45ae3774651f249b30fcc9da29f46e0a6a8acd71bf99a193f.png" alt="Hulu logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/Netflix_Logo-64f2c24826993510fc2daf839e52580e68a6ff8f36bd8b2e85d78db192a1bcc1.png" alt="Netflix logo" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img class="Logo" src="/assets/White_Youtube_Logo-0074a8347856ba5389ce4c57759535778f17b4a1bd00e20999092ed44fdcd530.png" alt="White youtube logo" />
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class = "filters col-lg-1 col-md-1">
+                    <form id="ratings_form" action="/movies" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                      <h1>Include:</h1>
+                      <hr>
+                        <br>
+                        <input type="checkbox" name="ratings[Hulu]" id="ratings[Hulu]" value="1" class="form-check-label form-inline" />
+                        <h4 id="rating">Hulu</h4>
+                        <br>
+                        <input type="checkbox" name="ratings[Netflix]" id="ratings[Netflix]" value="1" class="form-check-label form-inline" />
+                        <h4 id="rating">Netflix</h4>
+                        <br>
+                        <input type="checkbox" name="ratings[PrimeVideo]" id="ratings[PrimeVideo]" value="1" class="form-check-label form-inline" />
+                        <h4 id="rating">PrimeVideo</h4>
+                        <br>
+                        <input type="checkbox" name="ratings[Youtube]" id="ratings[Youtube]" value="1" class="form-check-label form-inline" />
+                        <h4 id="rating">Youtube</h4>
+                      <br>
+                      <input type="submit" name="commit" value="Refresh" id="ratings_submit" />
+                      </br>
+                      <button type="button" class="btn"><input type="submit" name="commit" value="Clear" id="clear_submit" /></button>
+</form>                </div>
+            
+                
+        
+<div class="album text-muted offset-lg-1 offset-md-1 col-lg-10 col-md-10">
+   <div class="container">
+      <div class="row">
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/4"><img src="/assets/imagined_land-d16c108386bfdd06850618f806064d034d32796c25a01ed942a4240391031895.jpg" alt="Imagined land" /><a>
+            <strong class="card-text" :id = 'Poster'>A Land Imagined</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2019-04-12 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/13"><img src="/assets/quiet_place-4a3f59fe36889b320af60316cee1bb93e790d057a9fe83abf2002898af72a9ce.jpg" alt="Quiet place" /><a>
+            <strong class="card-text" :id = 'Poster'>A Quiet Place</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2018-04-06 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/1"><img src="/assets/apostle_poster-01b6b162ba5a7549827241802203e2a1dad1736aee46c837435f20362a3cdc8c.jpg" alt="Apostle poster" /><a>
+            <strong class="card-text" :id = 'Poster'>Apostle</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2018-10-12 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/17"><img src="/assets/arrival-d034692c186d6071fe85b9cceedb95c65d020affd168a4204dc009e63d346823.jpg" alt="Arrival" /><a>
+            <strong class="card-text" :id = 'Poster'>Arrival</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2016-11-12 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/11"><img src="/assets/assassination_nation-bc2e886ef8555080bb6d54a6cfb191ca54ba27f26e5f768e2767e7b36b38f329.jpg" alt="Assassination nation" /><a>
+            <strong class="card-text" :id = 'Poster'>Assassination Nation</strong>
+            <p class="card-text">Hulu</p>
+            <p class="card-text">2018-09-21 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/16"><img src="/assets/city_of_ghosts-fe7c4e5a827bb79aa90af615e7d7bd4c0d477892a1d2d0afceea79589133f1b1.jpg" alt="City of ghosts" /><a>
+            <strong class="card-text" :id = 'Poster'>City of Ghosts</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2017-07-21 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/22"><img src="/assets/escape_room-1c4c607aaed55bc3b9780f8189f2f026ba57cd49b68545f734f953b8c3c1853b.jpg" alt="Escape room" /><a>
+            <strong class="card-text" :id = 'Poster'>Escape Room</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2019-01-04 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/12"><img src="/assets/fyre_fraud-c2bed92f6e7c3e5e409022cdbece66cd0cb9dcf71a133635c0ee8728f9420d55.jpg" alt="Fyre fraud" /><a>
+            <strong class="card-text" :id = 'Poster'>Fyre Fraud</strong>
+            <p class="card-text">Hulu</p>
+            <p class="card-text">2019-06-14 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/21"><img src="/assets/glass-bcb93d6ccd177d56329ca6802a8ed95b6b83dad151af8570b1e03a9246f3036c.jpg" alt="Glass" /><a>
+            <strong class="card-text" :id = 'Poster'>Glass</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2019-01-18 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/20"><img src="/assets/holmes-bf467ba6eb55103faac6e88bccb038b82d66ff9568b3cb22830408e2aef44eac.jpg" alt="Holmes" /><a>
+            <strong class="card-text" :id = 'Poster'>Holmes and Watson</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2018-12-24 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/23"><img src="/assets/spiderverse-f9473fe1e25882615ae7480e82c7a9791321a417e026752ad0901b4e9e54f0ac.jpg" alt="Spiderverse" /><a>
+            <strong class="card-text" :id = 'Poster'>Into The Spiderverse</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2018-12-14 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/14"><img src="/assets/it_comes_at_night-665ee439cb64e98bf63ba1425808cdf66b67b7c74e276ff141bc597e870b749e.jpg" alt="It comes at night" /><a>
+            <strong class="card-text" :id = 'Poster'>It Comes At Night</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2017-06-09 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/2"><img src="/assets/like_father-7f1b9916a620858df6ae0b2c23978a8a605a54f076c3a8e966df00e95d5b2787.jpg" alt="Like father" /><a>
+            <strong class="card-text" :id = 'Poster'>Like Father</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2018-08-03 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/15"><img src="/assets/two_heroes-fd10be6e5a609f18d56bacb8aa3ea376e4a5211358c57ca8f2a3a597584bf7f9.jpg" alt="Two heroes" /><a>
+            <strong class="card-text" :id = 'Poster'>MHA: Two Heroes</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2018-09-25 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/8"><img src="/assets/mother-28e5df9053869147a059d0aa4ca0c09ce893dda34e99c11ed2cd889d2f47ff0f.jpg" alt="Mother" /><a>
+            <strong class="card-text" :id = 'Poster'>Mother!</strong>
+            <p class="card-text">Hulu</p>
+            <p class="card-text">2017-09-15 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/3"><img src="/assets/outlaw_king_poster-154ac0b8d0e001c8dbdfb2d85dba5aba2629d0d73585831ad1cb1116dca49bb5.jpg" alt="Outlaw king poster" /><a>
+            <strong class="card-text" :id = 'Poster'>Outlaw King</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2018-11-09 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/7"><img src="/assets/roma-1400611c3235a58b85e964a417881b289e044a4c6313d7e959a046254687aae5.jpg" alt="Roma" /><a>
+            <strong class="card-text" :id = 'Poster'>Roma</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2018-11-21 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/10"><img src="/assets/shoplifters-fbb80bbb872c50b45cca02153c4fd2447bd977f2ad4feef5bab907fac38934ec.jpg" alt="Shoplifters" /><a>
+            <strong class="card-text" :id = 'Poster'>Shoplifters</strong>
+            <p class="card-text">Hulu</p>
+            <p class="card-text">2018-11-23 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/9"><img src="/assets/silence-bdb9412e7136c69189de5512ff0cfb1b5575c9d3a683c30d2a3f0bd6784e3976.jpg" alt="Silence" /><a>
+            <strong class="card-text" :id = 'Poster'>Silence</strong>
+            <p class="card-text">Hulu</p>
+            <p class="card-text">2017-01-13 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/5"><img src="/assets/perfect_date-3ac284be3ae9a6c2ba0a6f6a8f9e58b6bfd5a7c1be735080f59bf73b229be125.jpg" alt="Perfect date" /><a>
+            <strong class="card-text" :id = 'Poster'>The Perfect Date</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2019-04-12 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/6"><img src="/assets/the_silence-5a8600fa42aa5a6e138ce3a3814a955563802884e46f48c9b27a3a936f476eb1.jpg" alt="The silence" /><a>
+            <strong class="card-text" :id = 'Poster'>The Silence</strong>
+            <p class="card-text">Netflix</p>
+            <p class="card-text">2019-04-10 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/19"><img src="/assets/thinning-863efa0b75cf8b4b202b5daa7f053460c760abaefce6448ccfa978ae19b7e26d.jpg" alt="Thinning" /><a>
+            <strong class="card-text" :id = 'Poster'>The Thinning</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2016-10-12 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/24"><img src="/assets/vice-512fc836a9cdabb241041a1496416717c1a2bc9bb660ac55ea9f68b3f9c00d8e.jpg" alt="Vice" /><a>
+            <strong class="card-text" :id = 'Poster'>Vice</strong>
+            <p class="card-text">Youtube</p>
+            <p class="card-text">2018-12-25 00:00:00 UTC</p>
+         </div>
+         <div class="card text-white bg-dark mb-3">
+            <a href="/movies/18"><img src="/assets/zama-8f554e418e9bff54e1d210c9a3dd63f7badd36cffcc378336d2ccb4d116682ff.jpg" alt="Zama" /><a>
+            <strong class="card-text" :id = 'Poster'>Zama</strong>
+            <p class="card-text">PrimeVideo</p>
+            <p class="card-text">2017-09-28 00:00:00 UTC</p>
+         </div>
+      </div>
+   </div>
+</div>
+    </body>
+</html>
+    </div>
+  </body>
+</html>

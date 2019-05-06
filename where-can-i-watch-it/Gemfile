@@ -73,6 +73,7 @@ group :test do
   gem 'code_metrics'
   gem 'simplecov', require: false
   gem 'reek'
+  gem 'launchy'
 end
 
 #Bootstrap
