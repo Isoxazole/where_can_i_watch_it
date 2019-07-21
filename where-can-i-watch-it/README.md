@@ -1,9 +1,10 @@
-Where Can I Watch It?
+# Where Can I Watch It?
 
 Where Can I Watch It? is a web application developed using rails with the goal to show the user which streaming providers are showing the movie or tv show they want to watch as well as the cost for the user to stream their show. The app also includes a log in page, a comment section which requires the user to have an account to post a comment, favorites section, the ability to like a movie, as well as the ability to filter and search for a movie.
 
 This app was originally designed to have an API on the back-end to retreive movie data, however, there are currently no available free APIs for this purpose. Only commercial APIs are availalble, however, unable to be used for this project due to lack of having a budget.
 
+This project was developed using agile methodology with 2 week iterations for approximately 10 weeks (5 iterations). TDD and BDD was used throughout the project as well as ensuring the web application is RESTful.
 
 
 Steps to run application:
